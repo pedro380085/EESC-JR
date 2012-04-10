@@ -8,6 +8,7 @@
 
 #import "EmpresaViewController.h"
 #import "AreasAtuacaoViewController.h"
+#import "WebViewController.h"
 
 @interface EmpresaViewController ()
 
@@ -111,12 +112,33 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    if (indexPath.row == 1) {
-        AreasAtuacaoViewController *aavc = [[AreasAtuacaoViewController alloc] initWithNibName:nil bundle:nil];
+    if (indexPath.row == 0) {
+        WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"historia" withExtension:@"html"]];
+        [wvc setTitle:@"História"];
+        
+        [self.navigationController pushViewController:wvc animated:YES];
+    } else if (indexPath.row == 1) {
+        AreasAtuacaoViewController *aavc = [[AreasAtuacaoViewController alloc] initWithStyle:UITableViewStyleGrouped];
         
         [self.navigationController pushViewController:aavc animated:YES];
+    } else if (indexPath.row == 2) {
+        WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"proposito" withExtension:@"html"]];
+        [wvc setTitle:@"Propósito"];
+        
+        [self.navigationController pushViewController:wvc animated:YES];
+    } else if (indexPath.row == 4) {
+        WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"conquistas" withExtension:@"html"]];
+        [wvc setTitle:@"Conquistas"];
+        
+        [self.navigationController pushViewController:wvc animated:YES];
     }
+
+    
+    //WebViewController *wvc = [[WebViewController alloc] initWithNibName:nil bundle:nil];
+    //[wvc.webview loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:arquivo]]];
     
    /* 
     if (!self.secondViewController) {

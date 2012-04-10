@@ -14,13 +14,13 @@
 
 @implementation CursosAreasAtuacaoViewController
 
-@synthesize selectedCourse;
+@synthesize title, selectedCourse;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        self.tableView.separatorColor = [UIColor blackColor];
     }
     return self;
 }
@@ -40,7 +40,7 @@
                     [[NSArray alloc] initWithObjects: @"Impacto e adequação ambiental de empresas", @"Recursos hídricos e energéticos", nil],
                     [[NSArray alloc] initWithObjects: @"Consultoria em construção civil", @"Seleção de materiais para construção", @"Planejamento e programação da construção", @"Orçamento da obra", @"Análise de sistemas de transportes", nil],
                     [[NSArray alloc] initWithObjects: @"Lógica digital", @"Instrumentação", @"Rendimento e qualidade de energia", @"Paisagismo", @"Sistemas elétricos", nil],
-                    [[NSArray alloc] initWithObjects: @"Projetos e desenhos em CAD", @"Otimização de máquinas e equipamentos", @"Projetos de automação", @"Ensaios mecânicos", @"Tratamentos térmicos.", nil],
+                    [[NSArray alloc] initWithObjects: @"Projetos e desenhos em CAD", @"Otimização de máquinas e equipamentos", @"Projetos de automação", @"Ensaios mecânicos", @"Tratamentos térmicos", nil],
                     [[NSArray alloc] initWithObjects: @"Sistemas de informações", @"Análise de viabilidade e plano de negócios", @"Análise de viabilidade e plano de negócios", @"Gestão de estoque, armazenagem e distribuição física", @"Organização e otimização de sistemas produtivos", nil],
                     nil];
 }
@@ -57,8 +57,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (void)setTitle:(NSString *)title {
-    self.navigationItem.title = title;
+- (void)setTitle:(NSString *)newTitle {
+    self.navigationItem.title = newTitle;
 }
 
 #pragma mark - Table view data source

@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "EESC-JR/EmpresaViewController.m"
-         timestampString = "355717974.782977"
+         timestampString = "355769457.015747"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "21"
-         endingLineNumber = "21"
+         startingLineNumber = "22"
+         endingLineNumber = "22"
          landmarkName = "-initWithNibName:bundle:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "EESC-JR/EmpresaViewController.m"
-         timestampString = "355717974.782977"
+         timestampString = "355769457.015747"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "31"
-         endingLineNumber = "31"
+         startingLineNumber = "32"
+         endingLineNumber = "32"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,12 +60,77 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "EESC-JR/HomeViewController.m"
-         timestampString = "355723591.273766"
+         timestampString = "355768103.102287"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "41"
-         endingLineNumber = "41"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
          landmarkName = "-viewDidAppear:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "EESC-JR/EmpresaViewController.m"
+         timestampString = "355769457.015747"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "44"
+         endingLineNumber = "44"
+         landmarkName = "-shouldAutorotateToInterfaceOrientation:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "EESC-JR/EmpresaViewController.m"
+         timestampString = "355769728.103079"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "117"
+         endingLineNumber = "117"
+         landmarkName = "-tableView:didSelectRowAtIndexPath:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "EESC-JR/WebViewController.m"
+         timestampString = "355770212.957374"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "31"
+         endingLineNumber = "31"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "EESC-JR/WebViewController.m"
+         timestampString = "355770212.957374"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "34"
+         endingLineNumber = "34"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "EESC-JR/WebViewController.m"
+         timestampString = "355770212.957374"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "39"
+         endingLineNumber = "39"
+         landmarkName = "-viewDidUnload"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController {
+@interface HomeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     IBOutlet UIImageView *logoView;
+    IBOutlet UIImageView *logoTextoView;
+    IBOutlet UITableView *tabelaView;
+    
+    NSArray *__strong homeOptions;
 }
 
 @end

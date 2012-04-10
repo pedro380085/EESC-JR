@@ -10,8 +10,8 @@
 
 @interface CursosAreasAtuacaoViewController : UITableViewController {
     NSArray *__strong areasOptions;
+    NSString *__strong title;
     NSInteger selectedCourse;
-    NSString *__weak title;
 }
 
 @property (nonatomic) NSString *title;

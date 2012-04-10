@@ -14,7 +14,7 @@
 
 @implementation WebViewController
 
-@synthesize webview;
+@synthesize webview, url;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +29,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    [webview loadRequest:[NSURLRequest requestWithURL:url]]; 
 }
 
 - (void)viewDidUnload
@@ -39,7 +41,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 @end

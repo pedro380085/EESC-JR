@@ -50,7 +50,6 @@
 				<object class="NSPSMatrix" key="NSFrameMatrix"/>
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSNextKeyView"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -71,9 +70,9 @@
 				<bool key="IBUIDefinesPresentationContext">YES</bool>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUINavigationController" key="IBUISelectedViewController" id="588642740">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="788278047">
-						<string key="IBUITitle">Home</string>
+				<object class="IBUINavigationController" key="IBUISelectedViewController" id="1071322330">
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="885750418">
+						<string key="IBUITitle">Cases</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
 					<reference key="IBUIParentViewController" ref="859106763"/>
@@ -85,7 +84,7 @@
 					<bool key="IBUIDefinesPresentationContext">YES</bool>
 					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					<bool key="IBUIHorizontal">NO</bool>
-					<object class="IBUINavigationBar" key="IBUINavigationBar" id="767187045">
+					<object class="IBUINavigationBar" key="IBUINavigationBar" id="357569990">
 						<nil key="NSNextResponder"/>
 						<int key="NSvFlags">256</int>
 						<string key="NSFrameSize">{0, 0}</string>
@@ -100,13 +99,14 @@
 						</object>
 					</object>
 					<array class="NSMutableArray" key="IBUIViewControllers">
-						<object class="IBUIViewController" id="986376837">
-							<object class="IBUINavigationItem" key="IBUINavigationItem" id="9696261">
-								<string key="IBUITitle">Inicial</string>
+						<object class="IBUIViewController" id="1026217042">
+							<object class="IBUINavigationItem" key="IBUINavigationItem" id="439127655">
+								<string key="IBUITitle">Galeria</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							</object>
-							<reference key="IBUIParentViewController" ref="588642740"/>
-							<string key="IBUINibName">HomeViewController_iPhone</string>
+							<reference key="IBUIParentViewController" ref="1071322330"/>
+							<string key="IBUINibName">CasosViewController_iPhone</string>
+							<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 							<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 								<int key="IBUIInterfaceOrientation">1</int>
 								<int key="interfaceOrientation">1</int>
@@ -117,7 +117,51 @@
 					</array>
 				</object>
 				<array class="NSMutableArray" key="IBUIViewControllers">
-					<reference ref="588642740"/>
+					<object class="IBUINavigationController" id="588642740">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="788278047">
+							<string key="IBUITitle">Home</string>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						</object>
+						<reference key="IBUIParentViewController" ref="859106763"/>
+						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
+						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
+							<int key="IBUIInterfaceOrientation">1</int>
+							<int key="interfaceOrientation">1</int>
+						</object>
+						<bool key="IBUIDefinesPresentationContext">YES</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<bool key="IBUIHorizontal">NO</bool>
+						<object class="IBUINavigationBar" key="IBUINavigationBar" id="767187045">
+							<nil key="NSNextResponder"/>
+							<int key="NSvFlags">256</int>
+							<string key="NSFrameSize">{0, 0}</string>
+							<string key="NSReuseIdentifierKey">_NS:15</string>
+							<bool key="IBUIOpaque">NO</bool>
+							<bool key="IBUIClipsSubviews">YES</bool>
+							<bool key="IBUIMultipleTouchEnabled">YES</bool>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+							<object class="NSColor" key="IBUITintColor">
+								<int key="NSColorSpace">2</int>
+								<bytes key="NSRGB">MC4zNjg2Mjc0NTg4IDAuNjE1Njg2Mjk3NCAwLjcwNTg4MjM3MDUAA</bytes>
+							</object>
+						</object>
+						<array class="NSMutableArray" key="IBUIViewControllers">
+							<object class="IBUIViewController" id="986376837">
+								<object class="IBUINavigationItem" key="IBUINavigationItem" id="9696261">
+									<string key="IBUITitle">Inicial</string>
+									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								</object>
+								<reference key="IBUIParentViewController" ref="588642740"/>
+								<string key="IBUINibName">HomeViewController_iPhone</string>
+								<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
+									<int key="IBUIInterfaceOrientation">1</int>
+									<int key="interfaceOrientation">1</int>
+								</object>
+								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<bool key="IBUIHorizontal">NO</bool>
+							</object>
+						</array>
+					</object>
 					<object class="IBUINavigationController" id="149494458">
 						<string key="IBUITitle">Company</string>
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="184542053">
@@ -166,20 +210,80 @@
 									<string key="NSFrame">{{0, 20}, {320, 411}}</string>
 									<string key="NSReuseIdentifierKey">_NS:10</string>
 									<object class="NSColor" key="IBUIBackgroundColor">
-										<int key="NSColorSpace">3</int>
-										<bytes key="NSWhite">MQA</bytes>
+										<int key="NSColorSpace">10</int>
+										<object class="NSImage" key="NSImage">
+											<int key="NSImageFlags">549453824</int>
+											<string key="NSSize">{512, 1}</string>
+											<array class="NSMutableArray" key="NSReps">
+												<array>
+													<integer value="0"/>
+													<object class="NSBitmapImageRep">
+														<object class="NSData" key="NSTIFFRepresentation">
+															<bytes key="NS.bytes">TU0AKgAACAjFzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/
+y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/
+xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/
+xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/
+xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/
+xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/
+xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/
+y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/
+y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/
+xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/
+xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/
+xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/
+xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/
+xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/
+y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/
+y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/
+xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/
+xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/
+xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/
+xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/
+xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/
+y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/
+y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/
+xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/
+xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/
+xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/
+xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/
+xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/
+y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/
+y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/
+xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/
+xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/
+xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/xczS/8vS2P/L0tj/xczU/8XM1P/FzNT/
+xczU/8XM0v/L0tj/y9LY/8XM1P/FzNT/xczU/8XM1P/FzNL/y9LY/8vS2P/FzNT/xczU/8XM1P/FzNT/
+xczS/8vS2P/L0tj/xczU/wANAQAAAwAAAAECAAAAAQEAAwAAAAEAAQAAAQIAAwAAAAQAAAiqAQMAAwAA
+AAEAAQAAAQYAAwAAAAEAAgAAAREABAAAAAEAAAAIARIAAwAAAAEAAQAAARUAAwAAAAEABAAAARYAAwAA
+AAEAAQAAARcABAAAAAEAAAgAARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAQAAAiyAAAAAAAI
+AAgACAAIAAEAAQABAAE</bytes>
+														</object>
+													</object>
+												</array>
+											</array>
+											<object class="NSColor" key="NSColor" id="957235712">
+												<int key="NSColorSpace">3</int>
+												<bytes key="NSWhite">MCAwAA</bytes>
+											</object>
+										</object>
+										<string key="IBUIColorCocoaTouchKeyPath">groupTableViewBackgroundColor</string>
 									</object>
 									<bool key="IBUIOpaque">NO</bool>
 									<bool key="IBUIClipsSubviews">YES</bool>
 									<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 									<bool key="IBUIAlwaysBounceVertical">YES</bool>
-									<int key="IBUISeparatorStyle">1</int>
+									<int key="IBUIStyle">1</int>
+									<int key="IBUISeparatorStyle">2</int>
+									<object class="NSColor" key="IBUISeparatorColor">
+										<int key="NSColorSpace">1</int>
+										<bytes key="NSRGB">MCAwIDAAA</bytes>
+									</object>
 									<int key="IBUISectionIndexMinimumDisplayRowCount">0</int>
 									<bool key="IBUIShowsSelectionImmediatelyOnTouchBegin">YES</bool>
 									<float key="IBUIRowHeight">44</float>
-									<float key="IBUISectionHeaderHeight">22</float>
-									<float key="IBUISectionFooterHeight">22</float>
+									<float key="IBUISectionHeaderHeight">10</float>
+									<float key="IBUISectionFooterHeight">10</float>
 								</object>
 								<object class="IBUINavigationItem" key="IBUINavigationItem" id="853648623">
 									<string key="IBUITitle">Menu</string>
@@ -196,57 +300,14 @@
 							</object>
 						</array>
 					</object>
-					<object class="IBUINavigationController" id="1071322330">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="885750418">
-							<string key="IBUITitle">Cases</string>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<reference key="IBUIParentViewController" ref="859106763"/>
-						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-							<int key="IBUIInterfaceOrientation">1</int>
-							<int key="interfaceOrientation">1</int>
-						</object>
-						<bool key="IBUIDefinesPresentationContext">YES</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIHorizontal">NO</bool>
-						<object class="IBUINavigationBar" key="IBUINavigationBar" id="357569990">
-							<nil key="NSNextResponder"/>
-							<int key="NSvFlags">256</int>
-							<string key="NSFrameSize">{0, 0}</string>
-							<string key="NSReuseIdentifierKey">_NS:15</string>
-							<bool key="IBUIOpaque">NO</bool>
-							<bool key="IBUIClipsSubviews">YES</bool>
-							<bool key="IBUIMultipleTouchEnabled">YES</bool>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<object class="NSColor" key="IBUITintColor">
-								<int key="NSColorSpace">2</int>
-								<bytes key="NSRGB">MC4zNjg2Mjc0NTg4IDAuNjE1Njg2Mjk3NCAwLjcwNTg4MjM3MDUAA</bytes>
-							</object>
-						</object>
-						<array class="NSMutableArray" key="IBUIViewControllers">
-							<object class="IBUIViewController" id="1026217042">
-								<object class="IBUINavigationItem" key="IBUINavigationItem" id="439127655">
-									<string key="IBUITitle">Item</string>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								</object>
-								<reference key="IBUIParentViewController" ref="1071322330"/>
-								<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-								<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-									<int key="IBUIInterfaceOrientation">1</int>
-									<int key="interfaceOrientation">1</int>
-								</object>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<bool key="IBUIHorizontal">NO</bool>
-							</object>
-						</array>
-					</object>
+					<reference ref="1071322330"/>
 					<object class="IBUIViewController" id="71102555">
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="488950962">
 							<string key="IBUITitle">Partners</string>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="859106763"/>
+						<string key="IBUINibName">ParceirosViewController_iPhone</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
 							<int key="interfaceOrientation">1</int>
@@ -260,6 +321,7 @@
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="859106763"/>
+						<string key="IBUINibName">ContatoViewController_iPhone</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
 							<int key="interfaceOrientation">1</int>
@@ -273,12 +335,8 @@
 					<int key="NSvFlags">266</int>
 					<string key="NSFrame">{{0, 431}, {320, 49}}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSNextKeyView"/>
 					<string key="NSReuseIdentifierKey">_NS:29</string>
-					<object class="NSColor" key="IBUIBackgroundColor">
-						<int key="NSColorSpace">3</int>
-						<bytes key="NSWhite">MCAwAA</bytes>
-					</object>
+					<reference key="IBUIBackgroundColor" ref="957235712"/>
 					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				</object>
 			</object>
@@ -526,6 +584,7 @@
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="41.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="44.CustomClassName">CasosViewController</string>
 				<string key="44.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="45.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="46.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -536,7 +595,9 @@
 				<string key="50.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="7.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="8.CustomClassName">ParceirosViewController</string>
 				<string key="8.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="9.CustomClassName">ContatoViewController</string>
 				<string key="9.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>

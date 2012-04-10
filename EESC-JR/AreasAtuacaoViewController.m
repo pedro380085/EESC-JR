@@ -20,7 +20,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        self.tableView.separatorColor = [UIColor blackColor];
     }
     return self;
 }
@@ -37,6 +37,7 @@
     
     self.navigationItem.title = NSLocalizedString(@"Áreas de Atuação", @"Áreas de Atuação");
     areasOptions = [[NSArray alloc] initWithObjects:@"Arquitetura", @"Engenharia Ambiental", @"Engenharia Civil", @"Engenharia Elétrica", @"Engenharia Mecânica e Mecatrônica", @"Engenharia de Produção Mecânica", nil];
+    
 
 }
 
@@ -127,17 +128,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    if (indexPath.row == 0) {
-        WebViewController *wvc = [[WebViewController alloc] initWithNibName:nil bundle:nil];
-        //[wvc.webview loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:arquivo]]];
-    } else if (indexPath.row == 1) {
-        CursosAreasAtuacaoViewController *caavc = [[CursosAreasAtuacaoViewController alloc] initWithNibName:nil bundle:nil];
-        caavc.selectedCourse = indexPath.row;
-        caavc.title = [areasOptions objectAtIndex:indexPath.row];
+    CursosAreasAtuacaoViewController *caavc = [[CursosAreasAtuacaoViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    caavc.selectedCourse = indexPath.row;
+    caavc.title = [areasOptions objectAtIndex:indexPath.row];
         
-        [self.navigationController pushViewController:caavc animated:YES];
-    }
+    [self.navigationController pushViewController:caavc animated:YES];
 }
 
 @end

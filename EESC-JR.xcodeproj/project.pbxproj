@@ -29,7 +29,14 @@
 		EB1198A61533B55300645B5F /* HomeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */; };
 		EB1198A71533B55300645B5F /* HomeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */; };
 		EB1198D81533C45A00645B5F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1198DA1533C45A00645B5F /* MainWindow_iPhone.xib */; };
-		EB1982871533E50D0083437B /* logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1982861533E50D0083437B /* logo copy.png */; };
+		EB8880DA1534A5E0002418CF /* conquistas.html in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D41534A5E0002418CF /* conquistas.html */; };
+		EB8880DB1534A5E0002418CF /* Project.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D61534A5E0002418CF /* Project.espressostorage */; };
+		EB8880DC1534A5E0002418CF /* user.pedro.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D71534A5E0002418CF /* user.pedro.espressostorage */; };
+		EB8880DD1534A5E0002418CF /* historia.html in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D81534A5E0002418CF /* historia.html */; };
+		EB8880DE1534A5E0002418CF /* proposito.html in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D91534A5E0002418CF /* proposito.html */; };
+		EB8880E21534A9E9002418CF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8880E11534A9E9002418CF /* iCarousel.m */; };
+		EBBA418F15346C9400387720 /* logoTexto.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA418D15346C9400387720 /* logoTexto.png */; };
+		EBBA419015346C9400387720 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA418E15346C9400387720 /* logo.png */; };
 		EBE1D70F1533D0FC000C3248 /* AreasAtuacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D70E1533D0FC000C3248 /* AreasAtuacaoViewController.m */; };
 		EBE1D7121533D5A1000C3248 /* CursosAreasAtuacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D7111533D5A1000C3248 /* CursosAreasAtuacaoViewController.m */; };
 		EBE1D7141533DF91000C3248 /* WebViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE1D7131533DF91000C3248 /* WebViewController_iPhone.xib */; };
@@ -68,7 +75,15 @@
 		EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPad.xib; sourceTree = "<group>"; };
 		EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPhone.xib; sourceTree = "<group>"; };
 		EB1198D91533C45A00645B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		EB1982861533E50D0083437B /* logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo copy.png"; sourceTree = "<group>"; };
+		EB8880D41534A5E0002418CF /* conquistas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conquistas.html; sourceTree = "<group>"; };
+		EB8880D61534A5E0002418CF /* Project.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Project.espressostorage; sourceTree = "<group>"; };
+		EB8880D71534A5E0002418CF /* user.pedro.espressostorage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = user.pedro.espressostorage; sourceTree = "<group>"; };
+		EB8880D81534A5E0002418CF /* historia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = historia.html; sourceTree = "<group>"; };
+		EB8880D91534A5E0002418CF /* proposito.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proposito.html; sourceTree = "<group>"; };
+		EB8880E01534A9E9002418CF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		EB8880E11534A9E9002418CF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		EBBA418D15346C9400387720 /* logoTexto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoTexto.png; sourceTree = "<group>"; };
+		EBBA418E15346C9400387720 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		EBE1D70D1533D0FC000C3248 /* AreasAtuacaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreasAtuacaoViewController.h; sourceTree = "<group>"; };
 		EBE1D70E1533D0FC000C3248 /* AreasAtuacaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreasAtuacaoViewController.m; sourceTree = "<group>"; };
 		EBE1D7101533D5A1000C3248 /* CursosAreasAtuacaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CursosAreasAtuacaoViewController.h; sourceTree = "<group>"; };
@@ -96,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				EB1198591533A74A00645B5F /* Classes */,
+				EB8880DF1534A9E9002418CF /* iCarousel */,
 				EB1198931533B37900645B5F /* Interface */,
 				EB1198521533A74A00645B5F /* Frameworks */,
 				EB1198501533A74A00645B5F /* Products */,
@@ -141,7 +157,6 @@
 				EB11988A1533B34000645B5F /* ContatoViewController.m */,
 				EBE1D7151533DFD3000C3248 /* WebViewController.h */,
 				EBE1D7161533DFD3000C3248 /* WebViewController.m */,
-				EB1982861533E50D0083437B /* logo copy.png */,
 				EB11985A1533A74A00645B5F /* Supporting Files */,
 			);
 			name = Classes;
@@ -151,6 +166,9 @@
 		EB11985A1533A74A00645B5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB8880D31534A5E0002418CF /* html */,
+				EBBA418D15346C9400387720 /* logoTexto.png */,
+				EBBA418E15346C9400387720 /* logo.png */,
 				EB11985B1533A74A00645B5F /* EESC-JR-Info.plist */,
 				EB11985C1533A74A00645B5F /* InfoPlist.strings */,
 				EB11985F1533A74A00645B5F /* main.m */,
@@ -177,6 +195,35 @@
 			);
 			name = Interface;
 			path = "EESC-JR";
+			sourceTree = "<group>";
+		};
+		EB8880D31534A5E0002418CF /* html */ = {
+			isa = PBXGroup;
+			children = (
+				EB8880D41534A5E0002418CF /* conquistas.html */,
+				EB8880D51534A5E0002418CF /* EESC-Jr.esproj */,
+				EB8880D81534A5E0002418CF /* historia.html */,
+				EB8880D91534A5E0002418CF /* proposito.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		EB8880D51534A5E0002418CF /* EESC-Jr.esproj */ = {
+			isa = PBXGroup;
+			children = (
+				EB8880D61534A5E0002418CF /* Project.espressostorage */,
+				EB8880D71534A5E0002418CF /* user.pedro.espressostorage */,
+			);
+			path = "EESC-Jr.esproj";
+			sourceTree = "<group>";
+		};
+		EB8880DF1534A9E9002418CF /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				EB8880E01534A9E9002418CF /* iCarousel.h */,
+				EB8880E11534A9E9002418CF /* iCarousel.m */,
+			);
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +290,13 @@
 				EB1198A71533B55300645B5F /* HomeViewController_iPhone.xib in Resources */,
 				EB1198D81533C45A00645B5F /* MainWindow_iPhone.xib in Resources */,
 				EBE1D7141533DF91000C3248 /* WebViewController_iPhone.xib in Resources */,
-				EB1982871533E50D0083437B /* logo copy.png in Resources */,
+				EBBA418F15346C9400387720 /* logoTexto.png in Resources */,
+				EBBA419015346C9400387720 /* logo.png in Resources */,
+				EB8880DA1534A5E0002418CF /* conquistas.html in Resources */,
+				EB8880DB1534A5E0002418CF /* Project.espressostorage in Resources */,
+				EB8880DC1534A5E0002418CF /* user.pedro.espressostorage in Resources */,
+				EB8880DD1534A5E0002418CF /* historia.html in Resources */,
+				EB8880DE1534A5E0002418CF /* proposito.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +317,7 @@
 				EBE1D70F1533D0FC000C3248 /* AreasAtuacaoViewController.m in Sources */,
 				EBE1D7121533D5A1000C3248 /* CursosAreasAtuacaoViewController.m in Sources */,
 				EBE1D7171533DFD3000C3248 /* WebViewController.m in Sources */,
+				EB8880E21534A9E9002418CF /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
