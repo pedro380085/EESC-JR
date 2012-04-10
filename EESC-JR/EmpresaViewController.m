@@ -138,7 +138,6 @@
 
     
     //WebViewController *wvc = [[WebViewController alloc] initWithNibName:nil bundle:nil];
-    //[wvc.webview loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:arquivo]]];
     
    /* 
     if (!self.secondViewController) {
