@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  EmpresaViewController.h
 //  EESC-JR
 //
 //  Created by Pedro Góes on 09/04/12.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface EmpresaViewController : UITableViewController {
+    NSArray *__strong menuOptions;
+}
 
 @end

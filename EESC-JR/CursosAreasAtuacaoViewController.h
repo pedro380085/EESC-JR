@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CursosAreasAtuacaoViewController : UITableViewController
+@interface CursosAreasAtuacaoViewController : UITableViewController {
+    NSArray *__strong areasOptions;
+    NSInteger selectedCourse;
+    NSString *__weak title;
+}
+
+@property (nonatomic) NSString *title;
+@property (nonatomic) NSInteger selectedCourse;
 
 @end

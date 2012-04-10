@@ -1,18 +1,18 @@
 //
-//  HomeViewController.m
+//  ContatoViewController.m
 //  EESC-JR
 //
 //  Created by Pedro Góes on 09/04/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "ContatoViewController.h"
 
-@interface HomeViewController ()
+@interface ContatoViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation ContatoViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

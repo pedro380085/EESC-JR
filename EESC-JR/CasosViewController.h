@@ -1,5 +1,5 @@
 //
-//  AreasAtuacaoViewController.h
+//  CasosViewController.h
 //  EESC-JR
 //
 //  Created by Pedro Góes on 09/04/12.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AreasAtuacaoViewController : UITableViewController {
-    NSArray *__strong areasOptions;
+@interface CasosViewController : UIViewController {
+
+    
 }
 
 @end

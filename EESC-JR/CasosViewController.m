@@ -1,18 +1,18 @@
 //
-//  HomeViewController.m
+//  CasosViewController.m
 //  EESC-JR
 //
 //  Created by Pedro Góes on 09/04/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "CasosViewController.h"
 
-@interface HomeViewController ()
+@interface CasosViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation CasosViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

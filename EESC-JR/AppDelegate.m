@@ -8,9 +8,11 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
-
-#import "SecondViewController.h"
+#import "HomeViewController.h"
+#import "EmpresaViewController.h"
+#import "CasosViewController.h"
+#import "ParceirosViewController.h"
+#import "CasosViewController.h"
 
 @implementation AppDelegate
 
@@ -21,17 +23,25 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
+    /*
+    UIViewController *viewController1, *viewController2, *viewController3, *viewController4, *viewController5;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil];
+        viewController1 = [[HomeViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
+        viewController2 = [[EmpresaViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
+        viewController3 = [[CasosViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
+        viewController4 = [[ParceirosViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
+        viewController5 = [[CasosViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil];
     } else {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPad" bundle:nil];
+        viewController1 = [[HomeViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
+        viewController2 = [[EmpresaViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
+        viewController3 = [[CasosViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
+        viewController4 = [[ParceirosViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
+        viewController5 = [[CasosViewController alloc] initWithNibName:@"SecondViewController_iPad" bundle:nil];
     }
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, viewController3, viewController4, viewController5, nil];
     self.window.rootViewController = self.tabBarController;
+     */
     [self.window makeKeyAndVisible];
     return YES;
 }

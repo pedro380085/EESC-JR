@@ -14,6 +14,8 @@
 
 @implementation CursosAreasAtuacaoViewController
 
+@synthesize selectedCourse;
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -32,6 +34,15 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    areasOptions = [[NSArray alloc] initWithObjects:
+                    [[NSArray alloc] initWithObjects: @"Inclusão (adequação arquitetônica de edifícios para a melhor mobilidade de deficientes físicos)", @"Desenho arquitetônico", @"Layout interno e externo de ambientes", @"Conforto de estruturas", @"Paisagismo", @"Comunicação visual", nil],
+                    [[NSArray alloc] initWithObjects: @"Impacto e adequação ambiental de empresas", @"Recursos hídricos e energéticos", nil],
+                    [[NSArray alloc] initWithObjects: @"Consultoria em construção civil", @"Seleção de materiais para construção", @"Planejamento e programação da construção", @"Orçamento da obra", @"Análise de sistemas de transportes", nil],
+                    [[NSArray alloc] initWithObjects: @"Lógica digital", @"Instrumentação", @"Rendimento e qualidade de energia", @"Paisagismo", @"Sistemas elétricos", nil],
+                    [[NSArray alloc] initWithObjects: @"Projetos e desenhos em CAD", @"Otimização de máquinas e equipamentos", @"Projetos de automação", @"Ensaios mecânicos", @"Tratamentos térmicos.", nil],
+                    [[NSArray alloc] initWithObjects: @"Sistemas de informações", @"Análise de viabilidade e plano de negócios", @"Análise de viabilidade e plano de negócios", @"Gestão de estoque, armazenagem e distribuição física", @"Organização e otimização de sistemas produtivos", nil],
+                    nil];
 }
 
 - (void)viewDidUnload
@@ -46,30 +57,40 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)setTitle:(NSString *)title {
+    self.navigationItem.title = title;
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return [[areasOptions objectAtIndex:selectedCourse] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    // Configure the cell...
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    cell.accessoryType = UITableViewCellAccessoryNone;
+    cell.textLabel.numberOfLines = 0;
+    cell.textLabel.text = [[areasOptions objectAtIndex:selectedCourse] objectAtIndex:[indexPath row]];
     
     return cell;
+}
+
+- (float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 66;
 }
 
 /*
@@ -115,13 +136,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

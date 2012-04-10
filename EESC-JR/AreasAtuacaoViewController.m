@@ -7,6 +7,8 @@
 //
 
 #import "AreasAtuacaoViewController.h"
+#import "CursosAreasAtuacaoViewController.h"
+#import "WebViewController.h"
 
 @interface AreasAtuacaoViewController ()
 
@@ -32,6 +34,10 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    self.navigationItem.title = NSLocalizedString(@"Áreas de Atuação", @"Áreas de Atuação");
+    areasOptions = [[NSArray alloc] initWithObjects:@"Arquitetura", @"Engenharia Ambiental", @"Engenharia Civil", @"Engenharia Elétrica", @"Engenharia Mecânica e Mecatrônica", @"Engenharia de Produção Mecânica", nil];
+
 }
 
 - (void)viewDidUnload
@@ -50,26 +56,32 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return [areasOptions count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    // Configure the cell...
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.textLabel.numberOfLines = 0;
+    cell.textLabel.text = [areasOptions objectAtIndex:[indexPath row]];
     
     return cell;
+}
+
+- (float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 66;
 }
 
 /*
@@ -115,13 +127,17 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    
+    if (indexPath.row == 0) {
+        WebViewController *wvc = [[WebViewController alloc] initWithNibName:nil bundle:nil];
+        [wvc.webview loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:arquivo]]];
+    } else if (indexPath.row == 1) {
+        CursosAreasAtuacaoViewController *caavc = [[CursosAreasAtuacaoViewController alloc] initWithNibName:nil bundle:nil];
+        caavc.selectedCourse = indexPath.row;
+        caavc.title = [areasOptions objectAtIndex:indexPath.row];
+        
+        [self.navigationController pushViewController:caavc animated:YES];
+    }
 }
 
 @end
