@@ -29,6 +29,7 @@
 		EB1198A61533B55300645B5F /* HomeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */; };
 		EB1198A71533B55300645B5F /* HomeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */; };
 		EB1198D81533C45A00645B5F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1198DA1533C45A00645B5F /* MainWindow_iPhone.xib */; };
+		EB1982871533E50D0083437B /* logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1982861533E50D0083437B /* logo copy.png */; };
 		EBE1D70F1533D0FC000C3248 /* AreasAtuacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D70E1533D0FC000C3248 /* AreasAtuacaoViewController.m */; };
 		EBE1D7121533D5A1000C3248 /* CursosAreasAtuacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D7111533D5A1000C3248 /* CursosAreasAtuacaoViewController.m */; };
 		EBE1D7141533DF91000C3248 /* WebViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE1D7131533DF91000C3248 /* WebViewController_iPhone.xib */; };
@@ -67,6 +68,7 @@
 		EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPad.xib; sourceTree = "<group>"; };
 		EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPhone.xib; sourceTree = "<group>"; };
 		EB1198D91533C45A00645B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		EB1982861533E50D0083437B /* logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo copy.png"; sourceTree = "<group>"; };
 		EBE1D70D1533D0FC000C3248 /* AreasAtuacaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreasAtuacaoViewController.h; sourceTree = "<group>"; };
 		EBE1D70E1533D0FC000C3248 /* AreasAtuacaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreasAtuacaoViewController.m; sourceTree = "<group>"; };
 		EBE1D7101533D5A1000C3248 /* CursosAreasAtuacaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CursosAreasAtuacaoViewController.h; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				EB11988A1533B34000645B5F /* ContatoViewController.m */,
 				EBE1D7151533DFD3000C3248 /* WebViewController.h */,
 				EBE1D7161533DFD3000C3248 /* WebViewController.m */,
+				EB1982861533E50D0083437B /* logo copy.png */,
 				EB11985A1533A74A00645B5F /* Supporting Files */,
 			);
 			name = Classes;
@@ -240,6 +243,7 @@
 				EB1198A71533B55300645B5F /* HomeViewController_iPhone.xib in Resources */,
 				EB1198D81533C45A00645B5F /* MainWindow_iPhone.xib in Resources */,
 				EBE1D7141533DF91000C3248 /* WebViewController_iPhone.xib in Resources */,
+				EB1982871533E50D0083437B /* logo copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

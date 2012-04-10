@@ -130,7 +130,7 @@
     
     if (indexPath.row == 0) {
         WebViewController *wvc = [[WebViewController alloc] initWithNibName:nil bundle:nil];
-        [wvc.webview loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:arquivo]]];
+        //[wvc.webview loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:arquivo]]];
     } else if (indexPath.row == 1) {
         CursosAreasAtuacaoViewController *caavc = [[CursosAreasAtuacaoViewController alloc] initWithNibName:nil bundle:nil];
         caavc.selectedCourse = indexPath.row;

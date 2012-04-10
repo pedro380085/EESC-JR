@@ -36,6 +36,17 @@
     // Release any retained subviews of the main view.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [UIView animateWithDuration:1.0 animations:^{
+        [logoView setFrame:CGRectMake(0.0, 0.0, 83.0, 149.0)];
+    } completion:^(BOOL fim) {
+        //[web loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:@"Wiki_Cidade_Dorme" withExtension:@"html"]]];
+    }];
+    
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
