@@ -36,7 +36,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     areasOptions = [[NSArray alloc] initWithObjects:
-                    [[NSArray alloc] initWithObjects: @"Inclusão (adequação arquitetônica de edifícios para a melhor mobilidade de deficientes físicos)", @"Desenho arquitetônico", @"Layout interno e externo de ambientes", @"Conforto de estruturas", @"Paisagismo", @"Comunicação visual", nil],
+                    [[NSArray alloc] initWithObjects: @"Inclusão para deficientes físicos", @"Desenho arquitetônico", @"Layout interno e externo de ambientes", @"Conforto de estruturas", @"Paisagismo", @"Comunicação visual", nil],
                     [[NSArray alloc] initWithObjects: @"Impacto e adequação ambiental de empresas", @"Recursos hídricos e energéticos", nil],
                     [[NSArray alloc] initWithObjects: @"Consultoria em construção civil", @"Seleção de materiais para construção", @"Planejamento e programação da construção", @"Orçamento da obra", @"Análise de sistemas de transportes", nil],
                     [[NSArray alloc] initWithObjects: @"Lógica digital", @"Instrumentação", @"Rendimento e qualidade de energia", @"Paisagismo", @"Sistemas elétricos", nil],

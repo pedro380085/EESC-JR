@@ -38,6 +38,9 @@
     cases = [NSMutableArray arrayWithObjects:@"pneu", @"inclusao", @"estande", @"daae", @"plano", nil];
     casesImages = [NSMutableArray arrayWithObjects:@"pneu.jpg", @"inclusao.jpg", @"estande.jpg", @"daae2.jpg", @"plano.jpg", nil];
     casesDescriptions = [NSMutableArray arrayWithObjects:@"Projeto Pneu", @"Projeto Inclusão", @"Projeto Estande", @"Projeto DAAE", @"Plano de negócios", nil];
+    
+    barItem = [[UIBarButtonItem alloc] initWithTitle:@"Tipo" style:UIBarButtonItemStyleBordered target:self action:@selector(switchCarouselType)];
+    self.navigationItem.rightBarButtonItem = barItem;
 }
 
 - (void)viewDidUnload
@@ -52,6 +55,33 @@
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
+    }
+}
+
+- (IBAction)switchCarouselType
+{
+    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"Escolha o tipo do carrossel"
+                                                       delegate:self
+                                              cancelButtonTitle:nil
+                                         destructiveButtonTitle:nil
+                                              otherButtonTitles:@"Linear", @"Rotary", @"Inverted Rotary", @"Cylinder", @"Inverted Cylinder", @"Wheel", @"Inverted Wheel", @"CoverFlow", @"CoverFlow2", @"Time Machine", @"Inverted Time Machine", @"Custom", nil];
+    [sheet showFromBarButtonItem:barItem animated:YES];
+}
+
+#pragma mark -
+#pragma mark UIActionSheet methods
+
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex >= 0)
+    {
+        //map button index to carousel type
+        iCarouselType type = buttonIndex;
+        
+        //carousel can smoothly animate between types
+        [UIView beginAnimations:nil context:nil];
+        carousel.type = type;
+        [UIView commitAnimations];
     }
 }
 

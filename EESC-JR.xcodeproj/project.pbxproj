@@ -29,6 +29,7 @@
 		EB1198A61533B55300645B5F /* HomeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */; };
 		EB1198A71533B55300645B5F /* HomeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */; };
 		EB1198D81533C45A00645B5F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1198DA1533C45A00645B5F /* MainWindow_iPhone.xib */; };
+		EB165F8A1535317400050B4C /* logo@114.png in Resources */ = {isa = PBXBuildFile; fileRef = EB165F891535317400050B4C /* logo@114.png */; };
 		EB8880E21534A9E9002418CF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8880E11534A9E9002418CF /* iCarousel.m */; };
 		EB9D27451535205D00B036C4 /* GruposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D27441535205D00B036C4 /* GruposViewController.m */; };
 		EB9D274D1535226C00B036C4 /* juridico.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D27461535226C00B036C4 /* juridico.png */; };
@@ -98,6 +99,7 @@
 		EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPad.xib; sourceTree = "<group>"; };
 		EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPhone.xib; sourceTree = "<group>"; };
 		EB1198D91533C45A00645B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		EB165F891535317400050B4C /* logo@114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@114.png"; sourceTree = "<group>"; };
 		EB8880E01534A9E9002418CF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		EB8880E11534A9E9002418CF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		EB9D27431535205D00B036C4 /* GruposViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GruposViewController.h; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		EB1198441533A74A00645B5F = {
 			isa = PBXGroup;
 			children = (
+				EB165F891535317400050B4C /* logo@114.png */,
 				EB1198591533A74A00645B5F /* Classes */,
 				EB8880DF1534A9E9002418CF /* iCarousel */,
 				EB1198931533B37900645B5F /* Interface */,
@@ -392,6 +395,7 @@
 				EB9D27521535226C00B036C4 /* projetos.png in Resources */,
 				EB9D27531535226C00B036C4 /* rh.png in Resources */,
 				EB9D27571535257800B036C4 /* 1334111607_company.png in Resources */,
+				EB165F8A1535317400050B4C /* logo@114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

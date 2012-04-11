@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "CarouselViewController.h"
 
-@interface CasosViewController : CarouselViewController {
+@interface CasosViewController : CarouselViewController <UIActionSheetDelegate> {
     NSMutableArray *__strong cases;
     NSMutableArray *__strong casesImages;
     NSMutableArray *__strong casesDescriptions;
+    
+    UIBarButtonItem *__strong barItem;
 }
 
 @end
