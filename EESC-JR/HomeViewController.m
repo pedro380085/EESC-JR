@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "AprovadosViewController.h"
 
 @interface HomeViewController ()
 
@@ -149,6 +150,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (indexPath.row == 0) {
+        AprovadosViewController *avc = [[AprovadosViewController alloc] initWithNibName:nil bundle:nil];
+        [avc setTitle:@"Aprovados"];
+        
+        [self.navigationController pushViewController:avc animated:YES];
+    }
+    
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 

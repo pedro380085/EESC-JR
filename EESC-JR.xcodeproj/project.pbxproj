@@ -29,18 +29,41 @@
 		EB1198A61533B55300645B5F /* HomeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */; };
 		EB1198A71533B55300645B5F /* HomeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */; };
 		EB1198D81533C45A00645B5F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1198DA1533C45A00645B5F /* MainWindow_iPhone.xib */; };
-		EB8880DA1534A5E0002418CF /* conquistas.html in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D41534A5E0002418CF /* conquistas.html */; };
-		EB8880DB1534A5E0002418CF /* Project.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D61534A5E0002418CF /* Project.espressostorage */; };
-		EB8880DC1534A5E0002418CF /* user.pedro.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D71534A5E0002418CF /* user.pedro.espressostorage */; };
-		EB8880DD1534A5E0002418CF /* historia.html in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D81534A5E0002418CF /* historia.html */; };
-		EB8880DE1534A5E0002418CF /* proposito.html in Resources */ = {isa = PBXBuildFile; fileRef = EB8880D91534A5E0002418CF /* proposito.html */; };
 		EB8880E21534A9E9002418CF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8880E11534A9E9002418CF /* iCarousel.m */; };
+		EB9D27451535205D00B036C4 /* GruposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D27441535205D00B036C4 /* GruposViewController.m */; };
+		EB9D274D1535226C00B036C4 /* juridico.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D27461535226C00B036C4 /* juridico.png */; };
+		EB9D274E1535226C00B036C4 /* qualidade.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D27471535226C00B036C4 /* qualidade.png */; };
+		EB9D274F1535226C00B036C4 /* rse.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D27481535226C00B036C4 /* rse.png */; };
+		EB9D27501535226C00B036C4 /* eventos.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D27491535226C00B036C4 /* eventos.png */; };
+		EB9D27511535226C00B036C4 /* marketing.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D274A1535226C00B036C4 /* marketing.png */; };
+		EB9D27521535226C00B036C4 /* projetos.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D274B1535226C00B036C4 /* projetos.png */; };
+		EB9D27531535226C00B036C4 /* rh.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D274C1535226C00B036C4 /* rh.png */; };
+		EB9D27571535257800B036C4 /* 1334111607_company.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D27561535257800B036C4 /* 1334111607_company.png */; };
+		EB9D275A1535277100B036C4 /* AprovadosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D27591535277100B036C4 /* AprovadosViewController.m */; };
 		EBBA418F15346C9400387720 /* logoTexto.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA418D15346C9400387720 /* logoTexto.png */; };
 		EBBA419015346C9400387720 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA418E15346C9400387720 /* logo.png */; };
 		EBE1D70F1533D0FC000C3248 /* AreasAtuacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D70E1533D0FC000C3248 /* AreasAtuacaoViewController.m */; };
 		EBE1D7121533D5A1000C3248 /* CursosAreasAtuacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D7111533D5A1000C3248 /* CursosAreasAtuacaoViewController.m */; };
 		EBE1D7141533DF91000C3248 /* WebViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE1D7131533DF91000C3248 /* WebViewController_iPhone.xib */; };
 		EBE1D7171533DFD3000C3248 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D7161533DFD3000C3248 /* WebViewController.m */; };
+		EBF170CE1534F71200048F18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF170CD1534F71200048F18 /* QuartzCore.framework */; };
+		EBF170D91534FC4E00048F18 /* plano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF170D41534FC4E00048F18 /* plano.jpg */; };
+		EBF170DA1534FC4E00048F18 /* daae2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF170D51534FC4E00048F18 /* daae2.jpg */; };
+		EBF170DB1534FC4E00048F18 /* estande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF170D61534FC4E00048F18 /* estande.jpg */; };
+		EBF170DC1534FC4E00048F18 /* inclusao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF170D71534FC4E00048F18 /* inclusao.jpg */; };
+		EBF170DD1534FC4E00048F18 /* pneu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF170D81534FC4E00048F18 /* pneu.jpg */; };
+		EBF170EA1535199F00048F18 /* conquistas.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170DF1535199F00048F18 /* conquistas.html */; };
+		EBF170EB1535199F00048F18 /* daae.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E01535199F00048F18 /* daae.html */; };
+		EBF170EC1535199F00048F18 /* Project.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E21535199F00048F18 /* Project.espressostorage */; };
+		EBF170ED1535199F00048F18 /* user.pedro.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E31535199F00048F18 /* user.pedro.espressostorage */; };
+		EBF170EE1535199F00048F18 /* estande.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E41535199F00048F18 /* estande.html */; };
+		EBF170EF1535199F00048F18 /* historia.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E51535199F00048F18 /* historia.html */; };
+		EBF170F01535199F00048F18 /* inclusao.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E61535199F00048F18 /* inclusao.html */; };
+		EBF170F11535199F00048F18 /* plano.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E71535199F00048F18 /* plano.html */; };
+		EBF170F21535199F00048F18 /* pneu.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E81535199F00048F18 /* pneu.html */; };
+		EBF170F31535199F00048F18 /* proposito.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E91535199F00048F18 /* proposito.html */; };
+		EBF170FC15351D7700048F18 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF170FA15351D7700048F18 /* CarouselViewController.m */; };
+		EBF170FD15351D7700048F18 /* CarouselViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF170FB15351D7700048F18 /* CarouselViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,13 +98,20 @@
 		EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPad.xib; sourceTree = "<group>"; };
 		EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPhone.xib; sourceTree = "<group>"; };
 		EB1198D91533C45A00645B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		EB8880D41534A5E0002418CF /* conquistas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conquistas.html; sourceTree = "<group>"; };
-		EB8880D61534A5E0002418CF /* Project.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Project.espressostorage; sourceTree = "<group>"; };
-		EB8880D71534A5E0002418CF /* user.pedro.espressostorage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = user.pedro.espressostorage; sourceTree = "<group>"; };
-		EB8880D81534A5E0002418CF /* historia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = historia.html; sourceTree = "<group>"; };
-		EB8880D91534A5E0002418CF /* proposito.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proposito.html; sourceTree = "<group>"; };
 		EB8880E01534A9E9002418CF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		EB8880E11534A9E9002418CF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		EB9D27431535205D00B036C4 /* GruposViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GruposViewController.h; sourceTree = "<group>"; };
+		EB9D27441535205D00B036C4 /* GruposViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GruposViewController.m; sourceTree = "<group>"; };
+		EB9D27461535226C00B036C4 /* juridico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juridico.png; sourceTree = "<group>"; };
+		EB9D27471535226C00B036C4 /* qualidade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qualidade.png; sourceTree = "<group>"; };
+		EB9D27481535226C00B036C4 /* rse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rse.png; sourceTree = "<group>"; };
+		EB9D27491535226C00B036C4 /* eventos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventos.png; sourceTree = "<group>"; };
+		EB9D274A1535226C00B036C4 /* marketing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marketing.png; sourceTree = "<group>"; };
+		EB9D274B1535226C00B036C4 /* projetos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projetos.png; sourceTree = "<group>"; };
+		EB9D274C1535226C00B036C4 /* rh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rh.png; sourceTree = "<group>"; };
+		EB9D27561535257800B036C4 /* 1334111607_company.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1334111607_company.png; sourceTree = "<group>"; };
+		EB9D27581535277100B036C4 /* AprovadosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AprovadosViewController.h; sourceTree = "<group>"; };
+		EB9D27591535277100B036C4 /* AprovadosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AprovadosViewController.m; sourceTree = "<group>"; };
 		EBBA418D15346C9400387720 /* logoTexto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoTexto.png; sourceTree = "<group>"; };
 		EBBA418E15346C9400387720 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		EBE1D70D1533D0FC000C3248 /* AreasAtuacaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreasAtuacaoViewController.h; sourceTree = "<group>"; };
@@ -91,6 +121,25 @@
 		EBE1D7131533DF91000C3248 /* WebViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController_iPhone.xib; sourceTree = "<group>"; };
 		EBE1D7151533DFD3000C3248 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		EBE1D7161533DFD3000C3248 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		EBF170CD1534F71200048F18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EBF170D41534FC4E00048F18 /* plano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plano.jpg; sourceTree = "<group>"; };
+		EBF170D51534FC4E00048F18 /* daae2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daae2.jpg; sourceTree = "<group>"; };
+		EBF170D61534FC4E00048F18 /* estande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = estande.jpg; sourceTree = "<group>"; };
+		EBF170D71534FC4E00048F18 /* inclusao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inclusao.jpg; sourceTree = "<group>"; };
+		EBF170D81534FC4E00048F18 /* pneu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pneu.jpg; sourceTree = "<group>"; };
+		EBF170DF1535199F00048F18 /* conquistas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conquistas.html; sourceTree = "<group>"; };
+		EBF170E01535199F00048F18 /* daae.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = daae.html; sourceTree = "<group>"; };
+		EBF170E21535199F00048F18 /* Project.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Project.espressostorage; sourceTree = "<group>"; };
+		EBF170E31535199F00048F18 /* user.pedro.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = user.pedro.espressostorage; sourceTree = "<group>"; };
+		EBF170E41535199F00048F18 /* estande.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = estande.html; sourceTree = "<group>"; };
+		EBF170E51535199F00048F18 /* historia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = historia.html; sourceTree = "<group>"; };
+		EBF170E61535199F00048F18 /* inclusao.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = inclusao.html; sourceTree = "<group>"; };
+		EBF170E71535199F00048F18 /* plano.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = plano.html; sourceTree = "<group>"; };
+		EBF170E81535199F00048F18 /* pneu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pneu.html; sourceTree = "<group>"; };
+		EBF170E91535199F00048F18 /* proposito.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proposito.html; sourceTree = "<group>"; };
+		EBF170F915351D7600048F18 /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		EBF170FA15351D7700048F18 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
+		EBF170FB15351D7700048F18 /* CarouselViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselViewController_iPhone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF170CE1534F71200048F18 /* QuartzCore.framework in Frameworks */,
 				EB1198541533A74A00645B5F /* UIKit.framework in Frameworks */,
 				EB1198561533A74A00645B5F /* Foundation.framework in Frameworks */,
 				EB1198581533A74A00645B5F /* CoreGraphics.framework in Frameworks */,
@@ -129,6 +179,7 @@
 		EB1198521533A74A00645B5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EBF170CD1534F71200048F18 /* QuartzCore.framework */,
 				EB1198531533A74A00645B5F /* UIKit.framework */,
 				EB1198551533A74A00645B5F /* Foundation.framework */,
 				EB1198571533A74A00645B5F /* CoreGraphics.framework */,
@@ -143,8 +194,12 @@
 				EB1198631533A74A00645B5F /* AppDelegate.m */,
 				EB1198651533A74A00645B5F /* HomeViewController.h */,
 				EB1198661533A74A00645B5F /* HomeViewController.m */,
+				EB9D27581535277100B036C4 /* AprovadosViewController.h */,
+				EB9D27591535277100B036C4 /* AprovadosViewController.m */,
 				EB11986C1533A74A00645B5F /* EmpresaViewController.h */,
 				EB11986D1533A74A00645B5F /* EmpresaViewController.m */,
+				EB9D27431535205D00B036C4 /* GruposViewController.h */,
+				EB9D27441535205D00B036C4 /* GruposViewController.m */,
 				EBE1D70D1533D0FC000C3248 /* AreasAtuacaoViewController.h */,
 				EBE1D70E1533D0FC000C3248 /* AreasAtuacaoViewController.m */,
 				EBE1D7101533D5A1000C3248 /* CursosAreasAtuacaoViewController.h */,
@@ -155,6 +210,8 @@
 				EB11988B1533B34000645B5F /* ParceirosViewController.m */,
 				EB11988D1533B34000645B5F /* ContatoViewController.h */,
 				EB11988A1533B34000645B5F /* ContatoViewController.m */,
+				EBF170F915351D7600048F18 /* CarouselViewController.h */,
+				EBF170FA15351D7700048F18 /* CarouselViewController.m */,
 				EBE1D7151533DFD3000C3248 /* WebViewController.h */,
 				EBE1D7161533DFD3000C3248 /* WebViewController.m */,
 				EB11985A1533A74A00645B5F /* Supporting Files */,
@@ -166,9 +223,22 @@
 		EB11985A1533A74A00645B5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB8880D31534A5E0002418CF /* html */,
+				EB9D27561535257800B036C4 /* 1334111607_company.png */,
+				EBF170DE1535199F00048F18 /* html */,
 				EBBA418D15346C9400387720 /* logoTexto.png */,
 				EBBA418E15346C9400387720 /* logo.png */,
+				EBF170D41534FC4E00048F18 /* plano.jpg */,
+				EBF170D51534FC4E00048F18 /* daae2.jpg */,
+				EBF170D61534FC4E00048F18 /* estande.jpg */,
+				EBF170D71534FC4E00048F18 /* inclusao.jpg */,
+				EBF170D81534FC4E00048F18 /* pneu.jpg */,
+				EB9D27461535226C00B036C4 /* juridico.png */,
+				EB9D27471535226C00B036C4 /* qualidade.png */,
+				EB9D27481535226C00B036C4 /* rse.png */,
+				EB9D27491535226C00B036C4 /* eventos.png */,
+				EB9D274A1535226C00B036C4 /* marketing.png */,
+				EB9D274B1535226C00B036C4 /* projetos.png */,
+				EB9D274C1535226C00B036C4 /* rh.png */,
 				EB11985B1533A74A00645B5F /* EESC-JR-Info.plist */,
 				EB11985C1533A74A00645B5F /* InfoPlist.strings */,
 				EB11985F1533A74A00645B5F /* main.m */,
@@ -191,30 +261,11 @@
 				EB1198951533B55300645B5F /* ParceirosViewController_iPhone.xib */,
 				EB1198971533B55300645B5F /* ContatoViewController_iPad.xib */,
 				EB1198941533B55300645B5F /* ContatoViewController_iPhone.xib */,
+				EBF170FB15351D7700048F18 /* CarouselViewController_iPhone.xib */,
 				EBE1D7131533DF91000C3248 /* WebViewController_iPhone.xib */,
 			);
 			name = Interface;
 			path = "EESC-JR";
-			sourceTree = "<group>";
-		};
-		EB8880D31534A5E0002418CF /* html */ = {
-			isa = PBXGroup;
-			children = (
-				EB8880D41534A5E0002418CF /* conquistas.html */,
-				EB8880D51534A5E0002418CF /* EESC-Jr.esproj */,
-				EB8880D81534A5E0002418CF /* historia.html */,
-				EB8880D91534A5E0002418CF /* proposito.html */,
-			);
-			path = html;
-			sourceTree = "<group>";
-		};
-		EB8880D51534A5E0002418CF /* EESC-Jr.esproj */ = {
-			isa = PBXGroup;
-			children = (
-				EB8880D61534A5E0002418CF /* Project.espressostorage */,
-				EB8880D71534A5E0002418CF /* user.pedro.espressostorage */,
-			);
-			path = "EESC-Jr.esproj";
 			sourceTree = "<group>";
 		};
 		EB8880DF1534A9E9002418CF /* iCarousel */ = {
@@ -224,6 +275,31 @@
 				EB8880E11534A9E9002418CF /* iCarousel.m */,
 			);
 			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		EBF170DE1535199F00048F18 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				EBF170DF1535199F00048F18 /* conquistas.html */,
+				EBF170E01535199F00048F18 /* daae.html */,
+				EBF170E11535199F00048F18 /* EESC-Jr.esproj */,
+				EBF170E41535199F00048F18 /* estande.html */,
+				EBF170E51535199F00048F18 /* historia.html */,
+				EBF170E61535199F00048F18 /* inclusao.html */,
+				EBF170E71535199F00048F18 /* plano.html */,
+				EBF170E81535199F00048F18 /* pneu.html */,
+				EBF170E91535199F00048F18 /* proposito.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		EBF170E11535199F00048F18 /* EESC-Jr.esproj */ = {
+			isa = PBXGroup;
+			children = (
+				EBF170E21535199F00048F18 /* Project.espressostorage */,
+				EBF170E31535199F00048F18 /* user.pedro.espressostorage */,
+			);
+			path = "EESC-Jr.esproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,11 +368,30 @@
 				EBE1D7141533DF91000C3248 /* WebViewController_iPhone.xib in Resources */,
 				EBBA418F15346C9400387720 /* logoTexto.png in Resources */,
 				EBBA419015346C9400387720 /* logo.png in Resources */,
-				EB8880DA1534A5E0002418CF /* conquistas.html in Resources */,
-				EB8880DB1534A5E0002418CF /* Project.espressostorage in Resources */,
-				EB8880DC1534A5E0002418CF /* user.pedro.espressostorage in Resources */,
-				EB8880DD1534A5E0002418CF /* historia.html in Resources */,
-				EB8880DE1534A5E0002418CF /* proposito.html in Resources */,
+				EBF170D91534FC4E00048F18 /* plano.jpg in Resources */,
+				EBF170DA1534FC4E00048F18 /* daae2.jpg in Resources */,
+				EBF170DB1534FC4E00048F18 /* estande.jpg in Resources */,
+				EBF170DC1534FC4E00048F18 /* inclusao.jpg in Resources */,
+				EBF170DD1534FC4E00048F18 /* pneu.jpg in Resources */,
+				EBF170EA1535199F00048F18 /* conquistas.html in Resources */,
+				EBF170EB1535199F00048F18 /* daae.html in Resources */,
+				EBF170EC1535199F00048F18 /* Project.espressostorage in Resources */,
+				EBF170ED1535199F00048F18 /* user.pedro.espressostorage in Resources */,
+				EBF170EE1535199F00048F18 /* estande.html in Resources */,
+				EBF170EF1535199F00048F18 /* historia.html in Resources */,
+				EBF170F01535199F00048F18 /* inclusao.html in Resources */,
+				EBF170F11535199F00048F18 /* plano.html in Resources */,
+				EBF170F21535199F00048F18 /* pneu.html in Resources */,
+				EBF170F31535199F00048F18 /* proposito.html in Resources */,
+				EBF170FD15351D7700048F18 /* CarouselViewController_iPhone.xib in Resources */,
+				EB9D274D1535226C00B036C4 /* juridico.png in Resources */,
+				EB9D274E1535226C00B036C4 /* qualidade.png in Resources */,
+				EB9D274F1535226C00B036C4 /* rse.png in Resources */,
+				EB9D27501535226C00B036C4 /* eventos.png in Resources */,
+				EB9D27511535226C00B036C4 /* marketing.png in Resources */,
+				EB9D27521535226C00B036C4 /* projetos.png in Resources */,
+				EB9D27531535226C00B036C4 /* rh.png in Resources */,
+				EB9D27571535257800B036C4 /* 1334111607_company.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +413,9 @@
 				EBE1D7121533D5A1000C3248 /* CursosAreasAtuacaoViewController.m in Sources */,
 				EBE1D7171533DFD3000C3248 /* WebViewController.m in Sources */,
 				EB8880E21534A9E9002418CF /* iCarousel.m in Sources */,
+				EBF170FC15351D7700048F18 /* CarouselViewController.m in Sources */,
+				EB9D27451535205D00B036C4 /* GruposViewController.m in Sources */,
+				EB9D275A1535277100B036C4 /* AprovadosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

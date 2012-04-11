@@ -7,6 +7,7 @@
 //
 
 #import "EmpresaViewController.h"
+#import "GruposViewController.h"
 #import "AreasAtuacaoViewController.h"
 #import "WebViewController.h"
 
@@ -128,6 +129,11 @@
         [wvc setTitle:@"Propósito"];
         
         [self.navigationController pushViewController:wvc animated:YES];
+    } else if (indexPath.row == 3) {
+        GruposViewController *gvc = [[GruposViewController alloc] initWithNibName:nil bundle:nil];
+        [gvc setTitle:@"Galeria"];
+        
+        [self.navigationController pushViewController:gvc animated:YES];
     } else if (indexPath.row == 4) {
         WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
         [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"conquistas" withExtension:@"html"]];
@@ -136,9 +142,8 @@
         [self.navigationController pushViewController:wvc animated:YES];
     }
 
-    
-    //WebViewController *wvc = [[WebViewController alloc] initWithNibName:nil bundle:nil];
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+
    /* 
     if (!self.secondViewController) {
         self.secondViewController = [[SecondViewController alloc] initWithNibName:nil bundle:nil];
