@@ -125,6 +125,7 @@
         [self.navigationController pushViewController:aavc animated:YES];
     } else if (indexPath.row == 2) {
         WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setScalesPageToFit:NO];
         [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"proposito" withExtension:@"html"]];
         [wvc setTitle:@"Propósito"];
         

@@ -14,13 +14,14 @@
 
 @implementation WebViewController
 
-@synthesize webview, url;
+@synthesize webview, url, scalesPageToFit;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        scalesPageToFit = YES;
     }
     return self;
 }
@@ -30,7 +31,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    [webview loadRequest:[NSURLRequest requestWithURL:url]]; 
+    [self forceRequestLoad];
 }
 
 - (void)viewDidUnload
@@ -42,6 +43,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return YES;
+}
+
+- (void)forceRequestLoad {
+    [webview setScalesPageToFit:scalesPageToFit];
+    [webview loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
 @end

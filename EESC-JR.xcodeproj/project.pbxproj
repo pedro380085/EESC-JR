@@ -30,6 +30,18 @@
 		EB1198D81533C45A00645B5F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1198DA1533C45A00645B5F /* MainWindow_iPhone.xib */; };
 		EB165F8A1535317400050B4C /* logo@114.png in Resources */ = {isa = PBXBuildFile; fileRef = EB165F891535317400050B4C /* logo@114.png */; };
 		EB22F60F15367C59009281AA /* ContatoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB22F60E15367C59009281AA /* ContatoNavigationController.m */; };
+		EB4824521537423300546B60 /* conquistas.html in Resources */ = {isa = PBXBuildFile; fileRef = EB4824461537423300546B60 /* conquistas.html */; };
+		EB4824531537423300546B60 /* daae.html in Resources */ = {isa = PBXBuildFile; fileRef = EB4824471537423300546B60 /* daae.html */; };
+		EB4824541537423300546B60 /* Project.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EB4824491537423300546B60 /* Project.espressostorage */; };
+		EB4824551537423300546B60 /* user.pedro.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EB48244A1537423300546B60 /* user.pedro.espressostorage */; };
+		EB4824561537423300546B60 /* estande.html in Resources */ = {isa = PBXBuildFile; fileRef = EB48244B1537423300546B60 /* estande.html */; };
+		EB4824571537423300546B60 /* historia.html in Resources */ = {isa = PBXBuildFile; fileRef = EB48244C1537423300546B60 /* historia.html */; };
+		EB4824581537423300546B60 /* inclusao.html in Resources */ = {isa = PBXBuildFile; fileRef = EB48244D1537423300546B60 /* inclusao.html */; };
+		EB4824591537423300546B60 /* parceria.html in Resources */ = {isa = PBXBuildFile; fileRef = EB48244E1537423300546B60 /* parceria.html */; };
+		EB48245A1537423300546B60 /* plano.html in Resources */ = {isa = PBXBuildFile; fileRef = EB48244F1537423300546B60 /* plano.html */; };
+		EB48245B1537423300546B60 /* pneu.html in Resources */ = {isa = PBXBuildFile; fileRef = EB4824501537423300546B60 /* pneu.html */; };
+		EB48245C1537423300546B60 /* proposito.html in Resources */ = {isa = PBXBuildFile; fileRef = EB4824511537423300546B60 /* proposito.html */; };
+		EB48245E1537440500546B60 /* Proposta_de_Parceria_2011.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EB48245D1537440500546B60 /* Proposta_de_Parceria_2011.pdf */; };
 		EB8880E21534A9E9002418CF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8880E11534A9E9002418CF /* iCarousel.m */; };
 		EB9D27451535205D00B036C4 /* GruposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D27441535205D00B036C4 /* GruposViewController.m */; };
 		EB9D274D1535226C00B036C4 /* juridico.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D27461535226C00B036C4 /* juridico.png */; };
@@ -57,16 +69,6 @@
 		EBF170DB1534FC4E00048F18 /* estande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF170D61534FC4E00048F18 /* estande.jpg */; };
 		EBF170DC1534FC4E00048F18 /* inclusao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF170D71534FC4E00048F18 /* inclusao.jpg */; };
 		EBF170DD1534FC4E00048F18 /* pneu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF170D81534FC4E00048F18 /* pneu.jpg */; };
-		EBF170EA1535199F00048F18 /* conquistas.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170DF1535199F00048F18 /* conquistas.html */; };
-		EBF170EB1535199F00048F18 /* daae.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E01535199F00048F18 /* daae.html */; };
-		EBF170EC1535199F00048F18 /* Project.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E21535199F00048F18 /* Project.espressostorage */; };
-		EBF170ED1535199F00048F18 /* user.pedro.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E31535199F00048F18 /* user.pedro.espressostorage */; };
-		EBF170EE1535199F00048F18 /* estande.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E41535199F00048F18 /* estande.html */; };
-		EBF170EF1535199F00048F18 /* historia.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E51535199F00048F18 /* historia.html */; };
-		EBF170F01535199F00048F18 /* inclusao.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E61535199F00048F18 /* inclusao.html */; };
-		EBF170F11535199F00048F18 /* plano.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E71535199F00048F18 /* plano.html */; };
-		EBF170F21535199F00048F18 /* pneu.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E81535199F00048F18 /* pneu.html */; };
-		EBF170F31535199F00048F18 /* proposito.html in Resources */ = {isa = PBXBuildFile; fileRef = EBF170E91535199F00048F18 /* proposito.html */; };
 		EBF170FC15351D7700048F18 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF170FA15351D7700048F18 /* CarouselViewController.m */; };
 		EBF170FD15351D7700048F18 /* CarouselViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF170FB15351D7700048F18 /* CarouselViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
@@ -129,6 +131,18 @@
 		EB165F891535317400050B4C /* logo@114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@114.png"; sourceTree = "<group>"; };
 		EB22F60D15367C59009281AA /* ContatoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoNavigationController.h; sourceTree = "<group>"; };
 		EB22F60E15367C59009281AA /* ContatoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoNavigationController.m; sourceTree = "<group>"; };
+		EB4824461537423300546B60 /* conquistas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conquistas.html; sourceTree = "<group>"; };
+		EB4824471537423300546B60 /* daae.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = daae.html; sourceTree = "<group>"; };
+		EB4824491537423300546B60 /* Project.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Project.espressostorage; sourceTree = "<group>"; };
+		EB48244A1537423300546B60 /* user.pedro.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = user.pedro.espressostorage; sourceTree = "<group>"; };
+		EB48244B1537423300546B60 /* estande.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = estande.html; sourceTree = "<group>"; };
+		EB48244C1537423300546B60 /* historia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = historia.html; sourceTree = "<group>"; };
+		EB48244D1537423300546B60 /* inclusao.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = inclusao.html; sourceTree = "<group>"; };
+		EB48244E1537423300546B60 /* parceria.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = parceria.html; sourceTree = "<group>"; };
+		EB48244F1537423300546B60 /* plano.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = plano.html; sourceTree = "<group>"; };
+		EB4824501537423300546B60 /* pneu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pneu.html; sourceTree = "<group>"; };
+		EB4824511537423300546B60 /* proposito.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proposito.html; sourceTree = "<group>"; };
+		EB48245D1537440500546B60 /* Proposta_de_Parceria_2011.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Proposta_de_Parceria_2011.pdf; sourceTree = "<group>"; };
 		EB8880E01534A9E9002418CF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		EB8880E11534A9E9002418CF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		EB9D27431535205D00B036C4 /* GruposViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GruposViewController.h; sourceTree = "<group>"; };
@@ -162,16 +176,6 @@
 		EBF170D61534FC4E00048F18 /* estande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = estande.jpg; sourceTree = "<group>"; };
 		EBF170D71534FC4E00048F18 /* inclusao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inclusao.jpg; sourceTree = "<group>"; };
 		EBF170D81534FC4E00048F18 /* pneu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pneu.jpg; sourceTree = "<group>"; };
-		EBF170DF1535199F00048F18 /* conquistas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conquistas.html; sourceTree = "<group>"; };
-		EBF170E01535199F00048F18 /* daae.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = daae.html; sourceTree = "<group>"; };
-		EBF170E21535199F00048F18 /* Project.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Project.espressostorage; sourceTree = "<group>"; };
-		EBF170E31535199F00048F18 /* user.pedro.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = user.pedro.espressostorage; sourceTree = "<group>"; };
-		EBF170E41535199F00048F18 /* estande.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = estande.html; sourceTree = "<group>"; };
-		EBF170E51535199F00048F18 /* historia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = historia.html; sourceTree = "<group>"; };
-		EBF170E61535199F00048F18 /* inclusao.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = inclusao.html; sourceTree = "<group>"; };
-		EBF170E71535199F00048F18 /* plano.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = plano.html; sourceTree = "<group>"; };
-		EBF170E81535199F00048F18 /* pneu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pneu.html; sourceTree = "<group>"; };
-		EBF170E91535199F00048F18 /* proposito.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proposito.html; sourceTree = "<group>"; };
 		EBF170F915351D7600048F18 /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
 		EBF170FA15351D7700048F18 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 		EBF170FB15351D7700048F18 /* CarouselViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselViewController_iPhone.xib; sourceTree = "<group>"; };
@@ -267,8 +271,9 @@
 		EB11985A1533A74A00645B5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB48245D1537440500546B60 /* Proposta_de_Parceria_2011.pdf */,
+				EB4824451537423300546B60 /* html */,
 				EB9D27561535257800B036C4 /* 1334111607_company.png */,
-				EBF170DE1535199F00048F18 /* html */,
 				EBBA418D15346C9400387720 /* logoTexto.png */,
 				EBBA418E15346C9400387720 /* logo.png */,
 				EBF170D41534FC4E00048F18 /* plano.jpg */,
@@ -312,6 +317,32 @@
 			path = "EESC-JR";
 			sourceTree = "<group>";
 		};
+		EB4824451537423300546B60 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				EB4824461537423300546B60 /* conquistas.html */,
+				EB4824471537423300546B60 /* daae.html */,
+				EB4824481537423300546B60 /* EESC-Jr.esproj */,
+				EB48244B1537423300546B60 /* estande.html */,
+				EB48244C1537423300546B60 /* historia.html */,
+				EB48244D1537423300546B60 /* inclusao.html */,
+				EB48244E1537423300546B60 /* parceria.html */,
+				EB48244F1537423300546B60 /* plano.html */,
+				EB4824501537423300546B60 /* pneu.html */,
+				EB4824511537423300546B60 /* proposito.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		EB4824481537423300546B60 /* EESC-Jr.esproj */ = {
+			isa = PBXGroup;
+			children = (
+				EB4824491537423300546B60 /* Project.espressostorage */,
+				EB48244A1537423300546B60 /* user.pedro.espressostorage */,
+			);
+			path = "EESC-Jr.esproj";
+			sourceTree = "<group>";
+		};
 		EB8880DF1534A9E9002418CF /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,31 +359,6 @@
 				EBBAFC361536615E00D9DA71 /* libQuickDialog.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EBF170DE1535199F00048F18 /* html */ = {
-			isa = PBXGroup;
-			children = (
-				EBF170DF1535199F00048F18 /* conquistas.html */,
-				EBF170E01535199F00048F18 /* daae.html */,
-				EBF170E11535199F00048F18 /* EESC-Jr.esproj */,
-				EBF170E41535199F00048F18 /* estande.html */,
-				EBF170E51535199F00048F18 /* historia.html */,
-				EBF170E61535199F00048F18 /* inclusao.html */,
-				EBF170E71535199F00048F18 /* plano.html */,
-				EBF170E81535199F00048F18 /* pneu.html */,
-				EBF170E91535199F00048F18 /* proposito.html */,
-			);
-			path = html;
-			sourceTree = "<group>";
-		};
-		EBF170E11535199F00048F18 /* EESC-Jr.esproj */ = {
-			isa = PBXGroup;
-			children = (
-				EBF170E21535199F00048F18 /* Project.espressostorage */,
-				EBF170E31535199F00048F18 /* user.pedro.espressostorage */,
-			);
-			path = "EESC-Jr.esproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,16 +456,6 @@
 				EBF170DB1534FC4E00048F18 /* estande.jpg in Resources */,
 				EBF170DC1534FC4E00048F18 /* inclusao.jpg in Resources */,
 				EBF170DD1534FC4E00048F18 /* pneu.jpg in Resources */,
-				EBF170EA1535199F00048F18 /* conquistas.html in Resources */,
-				EBF170EB1535199F00048F18 /* daae.html in Resources */,
-				EBF170EC1535199F00048F18 /* Project.espressostorage in Resources */,
-				EBF170ED1535199F00048F18 /* user.pedro.espressostorage in Resources */,
-				EBF170EE1535199F00048F18 /* estande.html in Resources */,
-				EBF170EF1535199F00048F18 /* historia.html in Resources */,
-				EBF170F01535199F00048F18 /* inclusao.html in Resources */,
-				EBF170F11535199F00048F18 /* plano.html in Resources */,
-				EBF170F21535199F00048F18 /* pneu.html in Resources */,
-				EBF170F31535199F00048F18 /* proposito.html in Resources */,
 				EBF170FD15351D7700048F18 /* CarouselViewController_iPhone.xib in Resources */,
 				EB9D274D1535226C00B036C4 /* juridico.png in Resources */,
 				EB9D274E1535226C00B036C4 /* qualidade.png in Resources */,
@@ -470,6 +466,18 @@
 				EB9D27531535226C00B036C4 /* rh.png in Resources */,
 				EB9D27571535257800B036C4 /* 1334111607_company.png in Resources */,
 				EB165F8A1535317400050B4C /* logo@114.png in Resources */,
+				EB4824521537423300546B60 /* conquistas.html in Resources */,
+				EB4824531537423300546B60 /* daae.html in Resources */,
+				EB4824541537423300546B60 /* Project.espressostorage in Resources */,
+				EB4824551537423300546B60 /* user.pedro.espressostorage in Resources */,
+				EB4824561537423300546B60 /* estande.html in Resources */,
+				EB4824571537423300546B60 /* historia.html in Resources */,
+				EB4824581537423300546B60 /* inclusao.html in Resources */,
+				EB4824591537423300546B60 /* parceria.html in Resources */,
+				EB48245A1537423300546B60 /* plano.html in Resources */,
+				EB48245B1537423300546B60 /* pneu.html in Resources */,
+				EB48245C1537423300546B60 /* proposito.html in Resources */,
+				EB48245E1537440500546B60 /* Proposta_de_Parceria_2011.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

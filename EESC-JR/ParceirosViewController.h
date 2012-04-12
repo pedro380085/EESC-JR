@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebViewController.h"
 
-@interface ParceirosViewController : UIViewController
+@interface ParceirosViewController : WebViewController
 
 @end

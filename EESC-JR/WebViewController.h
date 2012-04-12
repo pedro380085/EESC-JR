@@ -11,9 +11,14 @@
 @interface WebViewController : UIViewController {
     IBOutlet UIWebView *__strong webview;
     NSURL *__strong url;
+    
+    BOOL scalesPageToFit;
 }
 
 @property (nonatomic, strong) UIWebView *webview;
 @property (nonatomic) NSURL *url;
+@property (nonatomic) BOOL scalesPageToFit;
+
+- (void)forceRequestLoad;
 
 @end

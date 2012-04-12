@@ -37,7 +37,7 @@
     QSection *section = [[QSection alloc] initWithTitle:@"Escolha o departamento"];
     [root addSection:section];
     
-    QRadioElement *radio = [[QRadioElement alloc] initWithItems:[NSArray arrayWithObjects:@"RH", @"Projetos", @"Marketing", @"Eventos", @"RSE",  @"Qualidade", @"Jurídico", nil] selected:0];
+    QRadioElement *radio = [[QRadioElement alloc] initWithItems:[NSArray arrayWithObjects:@"Presidente",@"RH", @"Projetos", @"Marketing", @"Eventos", @"RSE",  @"Qualidade", @"Jurídico", nil] selected:0];
     [radio setTitle:@"Departamento"];
     [radio setControllerAction:@"handleRadio:"];
     [radio setKey:@"radio"];
@@ -48,7 +48,7 @@
     [labelDiretor setControllerAction:@"handleRadio:"];
     [section addElement:labelDiretor];
     
-    QLabelElement *labelEmail = [[QLabelElement alloc] initWithTitle:@"Email" Value:@"world!"];
+    QLabelElement *labelEmail = [[QLabelElement alloc] initWithTitle:@"Email" Value:@""];
     [labelEmail setKey:@"labelEmail"];
     [labelEmail setControllerAction:@"handleRadio:"];
     [section addElement:labelEmail];
@@ -63,6 +63,7 @@
     [root addSection:section3];
     
     QButtonElement *button = [[QButtonElement alloc] initWithTitle:@"Enviar!"];
+    [button setControllerAction:@"sendMessage:"];
     [section3 addElement:button];
      
      
