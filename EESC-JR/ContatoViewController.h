@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContatoViewController : UIViewController
+@interface ContatoViewController : QuickDialogController <UINavigationControllerDelegate> {
+    NSArray *__strong diretoresOptions;
+    NSArray *__strong emailOptions;
+    
+    BOOL shouldUpdate;
+}
 
 @end
