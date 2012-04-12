@@ -29,10 +29,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.navigationController.delegate = self;
     shouldUpdate = NO;
     
-    diretoresOptions = [[NSArray alloc] initWithObjects:@"Tamiris Benassi Mori", @"Fernanda Schwarzstein", @"Lucas Mazzotti Martini", @"Tiago Avelar Guimarães", @"Pedro Henrique Miranda", @"Marcelo Fonseca", @"Gabriela Perche", @"Heytor Pessoa ", nil];
+    diretoresOptions = [[NSArray alloc] initWithObjects:@"Tamiris Benassi Mori", @"Fernanda Schwarzstein", @"Lucas Mazzotti Martini", @"Tiago Avelar Guimarães", @"Pedro Henrique Miranda", @"Marcelo Fonseca", @"Gabriela Perche", @"Heytor Pessoa", nil];
+    
+    emailOptions = [[NSArray alloc] initWithObjects:@"Ttamirismori@gmail.com", @"fer.schwarzstein@gmail.com", @"lufr14@gmail.com", @"tiago.avelar@gmail.com", @"pedro.henrique.s.miranda@gmail.com", @"marcelo.bussab@gmail.com", @"gabriela.perche@gmail.com", @"heytor.p@gmail.com", nil];
 }
 
 - (void)viewDidUnload
@@ -51,22 +52,17 @@
 }
 
 - (void)handleRadio:(QButtonElement *)button {
+    
+    QRadioElement *radio = (QRadioElement *) [self.root elementWithKey:@"radio"];
+    QLabelElement *diretor = (QLabelElement *) [self.root elementWithKey:@"labelDiretor"];
+    QLabelElement *email = (QLabelElement *) [self.root elementWithKey:@"labelEmail"];
+    
+    
+    [diretor setValue:[diretoresOptions objectAtIndex:radio.selected]];
+    [email setValue:[emailOptions objectAtIndex:radio.selected]];
+    [self.quickDialogTableView reloadCellForElements:diretor, email, nil];
+    
     shouldUpdate = YES;
-}
-
-#pragma mark - Navigation Controller Delegate
-
-- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if (shouldUpdate) {
-        QRadioElement *radio = (QRadioElement *) [self.root elementWithKey:@"radio"];
-        QLabelElement *diretor = (QLabelElement *) [self.root elementWithKey:@"labelDiretor"];
-        QLabelElement *email = (QLabelElement *) [self.root elementWithKey:@"labelEmail"];
-        
-        [diretor setValue:[diretoresOptions objectAtIndex:2]];
-        [self.quickDialogTableView reloadCellForElements:diretor, nil];
-        
-        shouldUpdate = NO;
-    }
 }
 
 

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContatoViewController : QuickDialogController <UINavigationControllerDelegate> {
+@interface ContatoViewController : QuickDialogController {
     NSArray *__strong diretoresOptions;
     NSArray *__strong emailOptions;
     

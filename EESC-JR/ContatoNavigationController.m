@@ -35,7 +35,6 @@
     root.grouped = YES;
     
     QSection *section = [[QSection alloc] initWithTitle:@"Escolha o departamento"];
-    section.key = @"ds";
     [root addSection:section];
     
     QRadioElement *radio = [[QRadioElement alloc] initWithItems:[NSArray arrayWithObjects:@"RH", @"Projetos", @"Marketing", @"Eventos", @"RSE",  @"Qualidade", @"Jurídico", nil] selected:0];
@@ -51,6 +50,7 @@
     
     QLabelElement *labelEmail = [[QLabelElement alloc] initWithTitle:@"Email" Value:@"world!"];
     [labelEmail setKey:@"labelEmail"];
+    [labelEmail setControllerAction:@"handleRadio:"];
     [section addElement:labelEmail];
     
     QSection *section2 = [[QSection alloc] initWithTitle:@"Escreva a mensagem"];
