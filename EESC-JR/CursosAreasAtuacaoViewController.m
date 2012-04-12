@@ -39,6 +39,7 @@
                     [[NSArray alloc] initWithObjects: @"Inclusão para deficientes físicos", @"Desenho arquitetônico", @"Layout interno e externo de ambientes", @"Conforto de estruturas", @"Paisagismo", @"Comunicação visual", nil],
                     [[NSArray alloc] initWithObjects: @"Impacto e adequação ambiental de empresas", @"Recursos hídricos e energéticos", nil],
                     [[NSArray alloc] initWithObjects: @"Consultoria em construção civil", @"Seleção de materiais para construção", @"Planejamento e programação da construção", @"Orçamento da obra", @"Análise de sistemas de transportes", nil],
+                    [[NSArray alloc] initWithObjects: @"Desenvolvimento de software", @"Optimização de sistemas", nil],
                     [[NSArray alloc] initWithObjects: @"Lógica digital", @"Instrumentação", @"Rendimento e qualidade de energia", @"Paisagismo", @"Sistemas elétricos", nil],
                     [[NSArray alloc] initWithObjects: @"Projetos e desenhos em CAD", @"Otimização de máquinas e equipamentos", @"Projetos de automação", @"Ensaios mecânicos", @"Tratamentos térmicos", nil],
                     [[NSArray alloc] initWithObjects: @"Sistemas de informações", @"Análise de viabilidade e plano de negócios", @"Análise de viabilidade e plano de negócios", @"Gestão de estoque, armazenagem e distribuição física", @"Organização e otimização de sistemas produtivos", nil],

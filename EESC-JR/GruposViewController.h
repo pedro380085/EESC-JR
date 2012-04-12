@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CarouselViewController.h"
 
-@interface GruposViewController : CarouselViewController {
+@interface GruposViewController : CarouselViewController <iCarouselDataSource, iCarouselDelegate> {
     NSMutableArray *__strong cases;
     NSMutableArray *__strong casesImages;
     NSMutableArray *__strong casesDescriptions;

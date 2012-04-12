@@ -203,6 +203,7 @@
     WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
     [wvc setUrl:[[NSBundle mainBundle] URLForResource:[cases objectAtIndex:index] withExtension:@"html"]];
     [wvc setTitle:[[cases objectAtIndex:index] capitalizedString]];
+    [wvc setScalesPageToFit:NO];
     
     [self.navigationController pushViewController:wvc animated:YES];
     

@@ -36,7 +36,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.navigationItem.title = NSLocalizedString(@"Áreas de Atuação", @"Áreas de Atuação");
-    areasOptions = [[NSArray alloc] initWithObjects:@"Arquitetura", @"Engenharia Ambiental", @"Engenharia Civil", @"Engenharia Elétrica", @"Engenharia Mecânica e Mecatrônica", @"Engenharia de Produção Mecânica", nil];
+    areasOptions = [[NSArray alloc] initWithObjects:@"Arquitetura", @"Engenharia Ambiental", @"Engenharia Civil", @"Engenharia de Computação", @"Engenharia Elétrica", @"Engenharia Mecânica e Mecatrônica", @"Engenharia de Produção Mecânica", nil];
     
 
 }
