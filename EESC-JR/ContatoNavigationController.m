@@ -37,7 +37,7 @@
     QSection *section = [[QSection alloc] initWithTitle:@"Escolha o departamento"];
     [root addSection:section];
     
-    QRadioElement *radio = [[QRadioElement alloc] initWithItems:[NSArray arrayWithObjects:@"Presidente",@"RH", @"Projetos", @"Marketing", @"Eventos", @"RSE",  @"Qualidade", @"Jurídico", nil] selected:0];
+    QRadioElement *radio = [[QRadioElement alloc] initWithItems:[NSArray arrayWithObjects:@"Presidente", @"Projetos", @"Jurídico", @"Marketing", @"RH", @"RSE",  @"Qualidade", @"Eventos", nil] selected:0];
     [radio setTitle:@"Departamento"];
     [radio setControllerAction:@"handleRadio:"];
     [radio setKey:@"radio"];
