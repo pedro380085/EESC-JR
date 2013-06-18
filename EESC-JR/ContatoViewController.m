@@ -31,9 +31,9 @@
     
     shouldUpdate = NO;
     
-    diretoresOptions = [[NSArray alloc] initWithObjects:@"Tamiris Benassi Mori", @"Fernanda Schwarzstein", @"Lucas Mazzotti Martini", @"Tiago Avelar Guimarães", @"Pedro Henrique Miranda", @"Marcelo Fonseca", @"Gabriela Perche", @"Heytor Pessoa", nil];
+    diretoresOptions = [[NSArray alloc] initWithObjects:@"Lucas Martini", @"Julia Salles", @"Jan Gamerschlag", @"Júlia Rossi", @"Beatriz Hoshino", @"Juliana Hirono", @"Helena Ogata", @"Rafael Souza", nil];
     
-    emailOptions = [[NSArray alloc] initWithObjects:@"tamirismori@gmail.com", @"fer.schwarzstein@gmail.com", @"lufr14@gmail.com", @"tiago.avelar@gmail.com", @"pedro.henrique.s.miranda@gmail.com", @"marcelo.bussab@gmail.com", @"gabriela.perche@gmail.com", @"heytor.p@gmail.com", nil];
+    emailOptions = [[NSArray alloc] initWithObjects:@"lufr14@gmail.com", @"julialxsalles@gmail.com", @"jan.gmr90@gmail.com", @"julia.mprossi@gmail.com", @"biahoshino@gmail.com", @"midori.hirono@gmail.com", @"helena.megale.ogata@gmail.com", @"rgsouza92@gmail.com", nil];
 }
 
 - (void)viewDidUnload
@@ -65,16 +65,32 @@
     shouldUpdate = YES;
 }
 
+
+#pragma mark - Mail Methods
+
 - (void)sendMessage:(QButtonElement *)button {
-    UIAlertView *alert = [[UIAlertView alloc] 
-						  initWithTitle:@"Aviso" 
-						  message: @"Mensagem enviada com sucesso!"
-						  delegate:self 
-						  cancelButtonTitle:@"Ok" 
-						  otherButtonTitles:nil];
-	[alert show];
+    
+    if ([MFMailComposeViewController canSendMail]) {
+        
+        MFMailComposeViewController *mailViewController = [[MFMailComposeViewController alloc] init];
+        mailViewController.mailComposeDelegate = self;
+        
+        QLabelElement *email = (QLabelElement *) [self.root elementWithKey:@"labelEmail"];
+        QMultilineElement *message = (QMultilineElement *) [self.root elementWithKey:@"multiLineMessage"];
+        
+        [mailViewController setSubject:NSLocalizedString(@"Contato", @"Email Subject")];
+        [mailViewController setToRecipients:@[email.value]];
+        [mailViewController setMessageBody:message.textValue isHTML:NO];
+
+        [self presentModalViewController:mailViewController animated:YES];
+    } else {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error", nil) message:NSLocalizedString(@"Device can't send email", nil) delegate:nil cancelButtonTitle:nil otherButtonTitles: nil];
+        [alertView show];
+    }
 }
 
-     
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+        [self dismissModalViewControllerAnimated:YES];
+}
 
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContatoNavigationController : UINavigationController
+@interface ContatoNavigationController : UINavigationController <UINavigationControllerDelegate>
 
 @end

@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface ContatoViewController : QuickDialogController {
+@interface ContatoViewController : QuickDialogController <MFMailComposeViewControllerDelegate> {
     NSArray *__strong diretoresOptions;
     NSArray *__strong emailOptions;
     
     BOOL shouldUpdate;
 }
+
+- (void)sendMessage:(QButtonElement *)button;
 
 @end

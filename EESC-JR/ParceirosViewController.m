@@ -33,7 +33,7 @@
     
     UIButton *documentButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [documentButton addTarget:self action:@selector(showDocument) forControlEvents:UIControlEventTouchDown];
-    [documentButton setTitle:@"Apresentar documento de parceria       >" forState:UIControlStateNormal];
+    [documentButton setTitle:@"Apresentar documento de parceria" forState:UIControlStateNormal];
     documentButton.frame = CGRectMake(0.0, self.webview.frame.size.height - BUTTON_HEIGHT, self.webview.frame.size.width, BUTTON_HEIGHT);
     [self.view addSubview:documentButton];
     

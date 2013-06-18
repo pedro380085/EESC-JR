@@ -28,8 +28,16 @@
 		EB1198A61533B55300645B5F /* HomeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */; };
 		EB1198A71533B55300645B5F /* HomeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */; };
 		EB1198D81533C45A00645B5F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1198DA1533C45A00645B5F /* MainWindow_iPhone.xib */; };
+		EB14FC9916A7B88100F359D7 /* logo@57.png in Resources */ = {isa = PBXBuildFile; fileRef = EB14FC9816A7B88100F359D7 /* logo@57.png */; };
 		EB165F8A1535317400050B4C /* logo@114.png in Resources */ = {isa = PBXBuildFile; fileRef = EB165F891535317400050B4C /* logo@114.png */; };
 		EB22F60F15367C59009281AA /* ContatoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB22F60E15367C59009281AA /* ContatoNavigationController.m */; };
+		EB28748C16A79C9A00A06781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB28748B16A79C9A00A06781 /* Default-568h@2x.png */; };
+		EB28748E16A7A43C00A06781 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB28748D16A7A43C00A06781 /* MessageUI.framework */; };
+		EB28749216A7A9E900A06781 /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = EB28749116A7A9E900A06781 /* 44-shoebox.png */; };
+		EB28749416A7AA0000A06781 /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = EB28749316A7A9FF00A06781 /* 53-house.png */; };
+		EB28749616A7AA4100A06781 /* 177-building.png in Resources */ = {isa = PBXBuildFile; fileRef = EB28749516A7AA4100A06781 /* 177-building.png */; };
+		EB28749816A7AB2000A06781 /* 40-inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EB28749716A7AB2000A06781 /* 40-inbox.png */; };
+		EB28749A16A7AB4000A06781 /* 34-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = EB28749916A7AB4000A06781 /* 34-coffee.png */; };
 		EB4824521537423300546B60 /* conquistas.html in Resources */ = {isa = PBXBuildFile; fileRef = EB4824461537423300546B60 /* conquistas.html */; };
 		EB4824531537423300546B60 /* daae.html in Resources */ = {isa = PBXBuildFile; fileRef = EB4824471537423300546B60 /* daae.html */; };
 		EB4824541537423300546B60 /* Project.espressostorage in Resources */ = {isa = PBXBuildFile; fileRef = EB4824491537423300546B60 /* Project.espressostorage */; };
@@ -51,7 +59,6 @@
 		EB9D27511535226C00B036C4 /* marketing.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D274A1535226C00B036C4 /* marketing.png */; };
 		EB9D27521535226C00B036C4 /* projetos.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D274B1535226C00B036C4 /* projetos.png */; };
 		EB9D27531535226C00B036C4 /* rh.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D274C1535226C00B036C4 /* rh.png */; };
-		EB9D27571535257800B036C4 /* 1334111607_company.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9D27561535257800B036C4 /* 1334111607_company.png */; };
 		EB9D275A1535277100B036C4 /* AprovadosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D27591535277100B036C4 /* AprovadosViewController.m */; };
 		EBBA418F15346C9400387720 /* logoTexto.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA418D15346C9400387720 /* logoTexto.png */; };
 		EBBA419015346C9400387720 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA418E15346C9400387720 /* logo.png */; };
@@ -59,6 +66,8 @@
 		EBBAFC3D153661E700D9DA71 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBAFC3C153661E700D9DA71 /* CoreLocation.framework */; };
 		EBBAFC3E1536620100D9DA71 /* libQuickDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBAFC361536615E00D9DA71 /* libQuickDialog.a */; };
 		EBBAFC401536797700D9DA71 /* ContatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBAFC3F1536797700D9DA71 /* ContatoViewController.m */; };
+		EBD9ED7E16A7B08900F35369 /* mercado.html in Resources */ = {isa = PBXBuildFile; fileRef = EBD9ED7D16A7B08900F35369 /* mercado.html */; };
+		EBD9ED8016A7B09400F35369 /* dia.html in Resources */ = {isa = PBXBuildFile; fileRef = EBD9ED7F16A7B09400F35369 /* dia.html */; };
 		EBE1D70F1533D0FC000C3248 /* AreasAtuacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D70E1533D0FC000C3248 /* AreasAtuacaoViewController.m */; };
 		EBE1D7121533D5A1000C3248 /* CursosAreasAtuacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1D7111533D5A1000C3248 /* CursosAreasAtuacaoViewController.m */; };
 		EBE1D7141533DF91000C3248 /* WebViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE1D7131533DF91000C3248 /* WebViewController_iPhone.xib */; };
@@ -128,9 +137,17 @@
 		EB11989C1533B55300645B5F /* HomeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPad.xib; sourceTree = "<group>"; };
 		EB11989D1533B55300645B5F /* HomeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPhone.xib; sourceTree = "<group>"; };
 		EB1198D91533C45A00645B5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		EB14FC9816A7B88100F359D7 /* logo@57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@57.png"; sourceTree = "<group>"; };
 		EB165F891535317400050B4C /* logo@114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@114.png"; sourceTree = "<group>"; };
 		EB22F60D15367C59009281AA /* ContatoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoNavigationController.h; sourceTree = "<group>"; };
 		EB22F60E15367C59009281AA /* ContatoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoNavigationController.m; sourceTree = "<group>"; };
+		EB28748B16A79C9A00A06781 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EB28748D16A7A43C00A06781 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EB28749116A7A9E900A06781 /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
+		EB28749316A7A9FF00A06781 /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
+		EB28749516A7AA4100A06781 /* 177-building.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "177-building.png"; sourceTree = "<group>"; };
+		EB28749716A7AB2000A06781 /* 40-inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-inbox.png"; sourceTree = "<group>"; };
+		EB28749916A7AB4000A06781 /* 34-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-coffee.png"; sourceTree = "<group>"; };
 		EB4824461537423300546B60 /* conquistas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conquistas.html; sourceTree = "<group>"; };
 		EB4824471537423300546B60 /* daae.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = daae.html; sourceTree = "<group>"; };
 		EB4824491537423300546B60 /* Project.espressostorage */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Project.espressostorage; sourceTree = "<group>"; };
@@ -154,7 +171,6 @@
 		EB9D274A1535226C00B036C4 /* marketing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marketing.png; sourceTree = "<group>"; };
 		EB9D274B1535226C00B036C4 /* projetos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projetos.png; sourceTree = "<group>"; };
 		EB9D274C1535226C00B036C4 /* rh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rh.png; sourceTree = "<group>"; };
-		EB9D27561535257800B036C4 /* 1334111607_company.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1334111607_company.png; sourceTree = "<group>"; };
 		EB9D27581535277100B036C4 /* AprovadosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AprovadosViewController.h; sourceTree = "<group>"; };
 		EB9D27591535277100B036C4 /* AprovadosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AprovadosViewController.m; sourceTree = "<group>"; };
 		EBBA418D15346C9400387720 /* logoTexto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoTexto.png; sourceTree = "<group>"; };
@@ -163,6 +179,8 @@
 		EBBAFC3A153661DE00D9DA71 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EBBAFC3C153661E700D9DA71 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EBBAFC3F1536797700D9DA71 /* ContatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoViewController.m; sourceTree = "<group>"; };
+		EBD9ED7D16A7B08900F35369 /* mercado.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mercado.html; sourceTree = "<group>"; };
+		EBD9ED7F16A7B09400F35369 /* dia.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dia.html; sourceTree = "<group>"; };
 		EBE1D70D1533D0FC000C3248 /* AreasAtuacaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreasAtuacaoViewController.h; sourceTree = "<group>"; };
 		EBE1D70E1533D0FC000C3248 /* AreasAtuacaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreasAtuacaoViewController.m; sourceTree = "<group>"; };
 		EBE1D7101533D5A1000C3248 /* CursosAreasAtuacaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CursosAreasAtuacaoViewController.h; sourceTree = "<group>"; };
@@ -186,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB28748E16A7A43C00A06781 /* MessageUI.framework in Frameworks */,
 				EBBAFC3E1536620100D9DA71 /* libQuickDialog.a in Frameworks */,
 				EBBAFC3D153661E700D9DA71 /* CoreLocation.framework in Frameworks */,
 				EBBAFC3B153661DE00D9DA71 /* MapKit.framework in Frameworks */,
@@ -202,6 +221,8 @@
 		EB1198441533A74A00645B5F = {
 			isa = PBXGroup;
 			children = (
+				EB14FC9816A7B88100F359D7 /* logo@57.png */,
+				EB28748B16A79C9A00A06781 /* Default-568h@2x.png */,
 				EB165F891535317400050B4C /* logo@114.png */,
 				EB1198591533A74A00645B5F /* Classes */,
 				EB8880DF1534A9E9002418CF /* iCarousel */,
@@ -223,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				EBBAFC2A1536615D00D9DA71 /* QuickDialog.xcodeproj */,
+				EB28748D16A7A43C00A06781 /* MessageUI.framework */,
 				EBBAFC3C153661E700D9DA71 /* CoreLocation.framework */,
 				EBBAFC3A153661DE00D9DA71 /* MapKit.framework */,
 				EBF170CD1534F71200048F18 /* QuartzCore.framework */,
@@ -271,9 +293,13 @@
 		EB11985A1533A74A00645B5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB28749916A7AB4000A06781 /* 34-coffee.png */,
+				EB28749716A7AB2000A06781 /* 40-inbox.png */,
+				EB28749316A7A9FF00A06781 /* 53-house.png */,
+				EB28749116A7A9E900A06781 /* 44-shoebox.png */,
+				EB28749516A7AA4100A06781 /* 177-building.png */,
 				EB48245D1537440500546B60 /* Proposta_de_Parceria_2011.pdf */,
 				EB4824451537423300546B60 /* html */,
-				EB9D27561535257800B036C4 /* 1334111607_company.png */,
 				EBBA418D15346C9400387720 /* logoTexto.png */,
 				EBBA418E15346C9400387720 /* logo.png */,
 				EBF170D41534FC4E00048F18 /* plano.jpg */,
@@ -320,6 +346,8 @@
 		EB4824451537423300546B60 /* html */ = {
 			isa = PBXGroup;
 			children = (
+				EBD9ED7F16A7B09400F35369 /* dia.html */,
+				EBD9ED7D16A7B08900F35369 /* mercado.html */,
 				EB4824461537423300546B60 /* conquistas.html */,
 				EB4824471537423300546B60 /* daae.html */,
 				EB4824481537423300546B60 /* EESC-Jr.esproj */,
@@ -464,7 +492,6 @@
 				EB9D27511535226C00B036C4 /* marketing.png in Resources */,
 				EB9D27521535226C00B036C4 /* projetos.png in Resources */,
 				EB9D27531535226C00B036C4 /* rh.png in Resources */,
-				EB9D27571535257800B036C4 /* 1334111607_company.png in Resources */,
 				EB165F8A1535317400050B4C /* logo@114.png in Resources */,
 				EB4824521537423300546B60 /* conquistas.html in Resources */,
 				EB4824531537423300546B60 /* daae.html in Resources */,
@@ -478,6 +505,15 @@
 				EB48245B1537423300546B60 /* pneu.html in Resources */,
 				EB48245C1537423300546B60 /* proposito.html in Resources */,
 				EB48245E1537440500546B60 /* Proposta_de_Parceria_2011.pdf in Resources */,
+				EB28748C16A79C9A00A06781 /* Default-568h@2x.png in Resources */,
+				EB28749216A7A9E900A06781 /* 44-shoebox.png in Resources */,
+				EB28749416A7AA0000A06781 /* 53-house.png in Resources */,
+				EB28749616A7AA4100A06781 /* 177-building.png in Resources */,
+				EB28749816A7AB2000A06781 /* 40-inbox.png in Resources */,
+				EB28749A16A7AB4000A06781 /* 34-coffee.png in Resources */,
+				EBD9ED7E16A7B08900F35369 /* mercado.html in Resources */,
+				EBD9ED8016A7B09400F35369 /* dia.html in Resources */,
+				EB14FC9916A7B88100F359D7 /* logo@57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +578,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -557,6 +593,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -568,7 +606,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -577,6 +615,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -587,11 +626,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EESC-JR/EESC-JR-Prefix.pch";
 				INFOPLIST_FILE = "EESC-JR/EESC-JR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/QuickDialog\"/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -601,11 +644,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EESC-JR/EESC-JR-Prefix.pch";
 				INFOPLIST_FILE = "EESC-JR/EESC-JR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/QuickDialog\"/**";
 				WRAPPER_EXTENSION = app;
 			};

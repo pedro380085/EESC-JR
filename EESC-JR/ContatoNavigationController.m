@@ -57,6 +57,7 @@
     [root addSection:section2];
     
     QMultilineElement *message = [[QMultilineElement alloc] initWithTitle:@"Mensagem" Value:@"" Placeholder:@"Clique para digitar"];
+    [message setKey:@"multiLineMessage"];
     [section2 addElement:message];
     
     QSection *section3 = [[QSection alloc] initWithTitle:@"E envie o email!"];

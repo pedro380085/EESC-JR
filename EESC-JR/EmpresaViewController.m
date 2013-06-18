@@ -115,6 +115,7 @@
 {
     if (indexPath.row == 0) {
         WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setScalesPageToFit:NO];
         [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"historia" withExtension:@"html"]];
         [wvc setTitle:@"História"];
         
@@ -137,6 +138,7 @@
         [self.navigationController pushViewController:gvc animated:YES];
     } else if (indexPath.row == 4) {
         WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setScalesPageToFit:NO];
         [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"conquistas" withExtension:@"html"]];
         [wvc setTitle:@"Conquistas"];
         

@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "AprovadosViewController.h"
+#import "WebViewController.h"
 
 @interface HomeViewController ()
 
@@ -29,7 +30,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    homeOptions = [[NSArray alloc] initWithObjects:@"Aprovados na dinâmica", @"Plano de negócios", @"Feira de Carreiras", @"EESC Dia Feliz", nil];
+    homeOptions = [[NSArray alloc] initWithObjects:@"Aprovados na Dinâmica", @"Plano de Negócios", @"Feira de Carreiras", @"EESC Dia Feliz", nil];
 }
 
 - (void)viewDidUnload
@@ -155,7 +156,29 @@
         [avc setTitle:@"Aprovados"];
         
         [self.navigationController pushViewController:avc animated:YES];
+    } else if (indexPath.row == 1) {
+        WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setScalesPageToFit:NO];
+        [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"plano" withExtension:@"html"]];
+        [wvc setTitle:[homeOptions objectAtIndex:indexPath.row]];
+        
+        [self.navigationController pushViewController:wvc animated:YES];
+    } else if (indexPath.row == 2) {
+        WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setScalesPageToFit:NO];
+        [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"mercado" withExtension:@"html"]];
+        [wvc setTitle:[homeOptions objectAtIndex:indexPath.row]];
+        
+        [self.navigationController pushViewController:wvc animated:YES];
+    } else if (indexPath.row == 3) {
+        WebViewController *wvc = [[WebViewController alloc] initWithNibName:@"WebViewController_iPhone" bundle:nil];
+        [wvc setScalesPageToFit:NO];
+        [wvc setUrl:[[NSBundle mainBundle] URLForResource:@"dia" withExtension:@"html"]];
+        [wvc setTitle:[homeOptions objectAtIndex:indexPath.row]];
+        
+        [self.navigationController pushViewController:wvc animated:YES];
     }
+    
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
